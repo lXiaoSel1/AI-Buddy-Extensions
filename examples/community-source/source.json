@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-buddy-community-demo",
+  "name": "本项目社区源演示（独立签名，非外部作者）",
+  "catalogUrl": "https://raw.githubusercontent.com/lXiaoSel1/AI-Buddy-Extensions/main/examples/community-source/catalog.json",
+  "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOxpbYzKqAbx1RGErjyZPUMbBUE/ICqnkYrDNf5bCg+c",
+  "keyId": "community-demo",
+  "repositoryUrl": "https://github.com/lXiaoSel1/AI-Buddy-Extensions/tree/main/examples/community-source",
+  "feedbackUrl": "https://github.com/lXiaoSel1/AI-Buddy-Extensions/issues"
+}
