@@ -1,0 +1,5515 @@
+{
+  "fixedRuntimeSha256": "93878ac2bd12a8cf21b4e148e7f7705a7a6252c1398fd34eb50f8998ba0bf795",
+  "scope": "Exact package name/version labels in actual SEA main/worker bundles plus native package assets; not a legal certification",
+  "packages": [
+    {
+      "name": "@agentclientprotocol/sdk",
+      "version": "1.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_agentclientprotocol_sdk-1.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_agentclientprotocol_sdk-1.3.0/package_LICENSE",
+          "bytes": 10783,
+          "sha256": "6ed4f049cce59e05197d585bdf8a39980b45d546d6ea718ee344555f3a867c3a"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/agentclientprotocol/typescript-sdk.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@agentclientprotocol/sdk/-/sdk-1.3.0.tgz",
+      "archiveSha256": "0baf5b6be1842d00bf989c0211b7e44a15f88769d2fffd5036397ba249becc9f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@antfu/utils",
+      "version": "9.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_antfu_utils-9.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_antfu_utils-9.3.0/package_LICENSE",
+          "bytes": 1094,
+          "sha256": "67cd5e903c1f908edfa27c25606fa806ce629d9a8ddb7d83019d9fd1f83f7fde"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/antfu/utils.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@antfu/utils/-/utils-9.3.0.tgz",
+      "archiveSha256": "e97534ef3812c37d8ef5322073b0f890c22ce7cd3de4dfb10976c61e46a528cb",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@anthropic-ai/sdk",
+      "version": "0.95.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_anthropic-ai_sdk-0.95.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_anthropic-ai_sdk-0.95.2/package_LICENSE",
+          "bytes": 1056,
+          "sha256": "8bf96984ff8bcfae7e48cae76a529e8a25317ba9e02abf7fd3cc64fdf95657a6"
+        },
+        {
+          "path": "package/src/internal/qs/LICENSE.md",
+          "file": "_anthropic-ai_sdk-0.95.2/package_src_internal_qs_LICENSE.md",
+          "bytes": 1588,
+          "sha256": "d8c77eaffed7f1f874b97f66ee47a557ae24fd59bae8ae14f9b1b84f26a94d2f"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.95.2.tgz",
+      "archiveSha256": "a36f5ca58f24e6d0c37f60c81fee02e73c78ea4002c1004b5df3e2407a84a172",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@borewit/text-codec",
+      "version": "0.2.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_borewit_text-codec-0.2.2",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "_borewit_text-codec-0.2.2/package_LICENSE.txt",
+          "bytes": 1082,
+          "sha256": "5b3af80f317313a8b8c227b0c8bffae67728cfec1786137b0553e625f2affec9"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Borewit/text-codec.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@borewit/text-codec/-/text-codec-0.2.2.tgz",
+      "archiveSha256": "991d87763add805a12d5b3e67b201476681a5b738d8dcb9229bed1df755acba0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/ajv-compiler",
+      "version": "4.0.5",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_ajv-compiler-4.0.5",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_ajv-compiler-4.0.5/package_LICENSE",
+          "bytes": 1162,
+          "sha256": "9107d3439217d1dc2db08b738d2da931cd8d911049ec187de50657df7ae69927"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/ajv-compiler.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/ajv-compiler/-/ajv-compiler-4.0.5.tgz",
+      "archiveSha256": "72598227a44f8d18dccbd234ea74150a1b10b609ecf0a87c77bd663f2a56e278",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/busboy",
+      "version": "3.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_busboy-3.2.0",
+      "notices": [
+        {
+          "path": "package/deps/dicer/LICENSE",
+          "file": "_fastify_busboy-3.2.0/package_deps_dicer_LICENSE",
+          "bytes": 1067,
+          "sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111"
+        },
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_busboy-3.2.0/package_LICENSE",
+          "bytes": 1206,
+          "sha256": "8dbab34e7ff92c00df6be50783c3bdcbe726a2bdfdca9fd2b16c4b85f5094669"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/busboy.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/busboy/-/busboy-3.2.0.tgz",
+      "archiveSha256": "e4c74b7b179a18221d56c89ea4f5eb042f863f680a2c51196e2160031d5b5e2e",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/deepmerge",
+      "version": "3.2.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_deepmerge-3.2.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_deepmerge-3.2.1/package_LICENSE",
+          "bytes": 1162,
+          "sha256": "9107d3439217d1dc2db08b738d2da931cd8d911049ec187de50657df7ae69927"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/deepmerge.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/deepmerge/-/deepmerge-3.2.1.tgz",
+      "archiveSha256": "6af636271b2d8001b0fb75c2a329499258e5d5f7324b6ec339c1e11aa89eb44c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/error",
+      "version": "4.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_error-4.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_error-4.2.0/package_LICENSE",
+          "bytes": 1064,
+          "sha256": "ec99456b6f97f7e559790df166a17a2418dbdbf595d63502792a5ce661f1346c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fastify-error.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/error/-/error-4.2.0.tgz",
+      "archiveSha256": "58ec6d9b9c29a78cbe98de68cf8d7b648ca4f8791db6c2d32d8a72e26415245f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/fast-json-stringify-compiler",
+      "version": "5.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_fast-json-stringify-compiler-5.0.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_fast-json-stringify-compiler-5.0.3/package_LICENSE",
+          "bytes": 1064,
+          "sha256": "beaaa6163b3107bec675c3149e71cc818ffa5a6470f4ccca4326568619f18596"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fast-json-stringify-compiler.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/fast-json-stringify-compiler/-/fast-json-stringify-compiler-5.0.3.tgz",
+      "archiveSha256": "f9a5c656978377ece51a9154b0851fa042d8148d9668887351ae1269d7e77c7f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/forwarded",
+      "version": "3.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_forwarded-3.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_forwarded-3.0.1/package_LICENSE",
+          "bytes": 1213,
+          "sha256": "d68a3fa8f9d630e745cbdc7398691467fc11b2d4fe466f68692402461cf67781"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/forwarded.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/forwarded/-/forwarded-3.0.1.tgz",
+      "archiveSha256": "ed0abdaf68078316129f6f1e58c310d64ab56314c974f1926532faf3f3ff7582",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/merge-json-schemas",
+      "version": "0.2.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_merge-json-schemas-0.2.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_merge-json-schemas-0.2.1/package_LICENSE",
+          "bytes": 1064,
+          "sha256": "a5b84e79d71db5b8baef48e7c04143ca70117ee0a0b637133c02ab63a79fa6c7"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/merge-json-schemas.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/merge-json-schemas/-/merge-json-schemas-0.2.1.tgz",
+      "archiveSha256": "7f040daf23110134ecb74ae4ed9405c05fabfa969a587ea5cd13013329f44c28",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/multipart",
+      "version": "10.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_multipart-10.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_multipart-10.0.0/package_LICENSE",
+          "bytes": 1123,
+          "sha256": "ba9677e5a34c2738c26b36bb478f95e0369cac48fbe68a01a91fd5c7972f2043"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fastify-multipart.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/multipart/-/multipart-10.0.0.tgz",
+      "archiveSha256": "42edb747343ceedf2567c995ff782384828f12bc0f549a096abb31e6f62035b7",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/proxy-addr",
+      "version": "5.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_proxy-addr-5.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_proxy-addr-5.1.0/package_LICENSE",
+          "bytes": 1213,
+          "sha256": "2b78f11c8624f013751e54a34d87e8b5be5dd525dff65c7cda86f5439ed8bf8e"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/proxy-addr.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/proxy-addr/-/proxy-addr-5.1.0.tgz",
+      "archiveSha256": "da23aa2f3bd9b3e1f5881287ac3e46363055b63d1add4c059f88515b35d26856",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@fastify/swagger",
+      "version": "9.7.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_fastify_swagger-9.7.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_fastify_swagger-9.7.0/package_LICENSE",
+          "bytes": 1162,
+          "sha256": "fe26044de416cf0cdb2cfd12ed299e5756d05b5d2ee6c59d3fd25ed304635d58"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fastify-swagger.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@fastify/swagger/-/swagger-9.7.0.tgz",
+      "archiveSha256": "b046243cff37cd65fd035ca0731a0c68953835bdce265dac95f3eced025862e0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@google/genai",
+      "version": "1.49.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_google_genai-1.49.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_google_genai-1.49.0/package_LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/googleapis/js-genai.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@google/genai/-/genai-1.49.0.tgz",
+      "archiveSha256": "10689214ee85ab099d76bc087a1e6613c8877d3318c4ad15877566b9aa9d3040",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@hono/node-server",
+      "version": "1.19.14",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_hono_node-server-1.19.14",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_hono_node-server-1.19.14/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "6895190430d809c4c57a7582ecc2f99acbc2ea39a5dfad20262a41d5b3e91733"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/honojs/node-server.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@hono/node-server/-/node-server-1.19.14.tgz",
+      "archiveSha256": "0b956f346f96d8b89d03ee4e586e267a2d3877f4393fb97eb068572fd7a5b9ad",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/core",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_core-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_core-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/core/-/core-1.6.1.tgz",
+      "archiveSha256": "180f0886ce5e618bb4e638a94deefde492c17f1a6fce98c29d4fadf24ad1a918",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/diff",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_diff-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_diff-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/diff/-/diff-1.6.1.tgz",
+      "archiveSha256": "f980fc9b3cd9f7acfdbc2bfd93e6da14404c7f0c5ac182878e5376009048fcd6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/file-ops",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_file-ops-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_file-ops-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/file-ops/-/file-ops-1.6.1.tgz",
+      "archiveSha256": "8595e6ad059a6ea81c30457b34638e95c8d3783d50681526fbb4306223e1c9e2",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/js-bmp",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_js-bmp-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_js-bmp-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/js-bmp/-/js-bmp-1.6.1.tgz",
+      "archiveSha256": "e6fffb545537c247229630f6541dd3af8f95a608a07fa4466cc675dbdba166b4",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/js-gif",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_js-gif-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_js-gif-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/js-gif/-/js-gif-1.6.1.tgz",
+      "archiveSha256": "4c694c89f40813fa8d3a795da931c53465ab71101cced88d2e083e30c1df807a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/js-jpeg",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_js-jpeg-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_js-jpeg-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/js-jpeg/-/js-jpeg-1.6.1.tgz",
+      "archiveSha256": "ceec4c752125f0eccba18a77aea19516f69a231b7782b3921b8955cdb05f693d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/js-png",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_js-png-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_js-png-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/js-png/-/js-png-1.6.1.tgz",
+      "archiveSha256": "1df476b81dd62e062b1ef9183181d3b62ce1485497471391a41c40ec3adb7d28",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/js-tiff",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_js-tiff-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_js-tiff-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/js-tiff/-/js-tiff-1.6.1.tgz",
+      "archiveSha256": "4705559b505082fdaf8ab87e347308f6098c9ca79fae9bcdafc69978de6646b0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-blit",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-blit-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-blit-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-1.6.1.tgz",
+      "archiveSha256": "44048413a6d785c20c7eb170777b469e6f271e16659a33b07af0a8250879fee2",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-blur",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-blur-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-blur-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-1.6.1.tgz",
+      "archiveSha256": "4ca345861076c219758dd44a5dbfbd400711690971a601cd8022a55a324e921d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-circle",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-circle-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-circle-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-1.6.1.tgz",
+      "archiveSha256": "a3345544678b4635f76720a72f20ef384f1ab690503b97a95884de5c032f73a8",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-color",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-color-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-color-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-1.6.1.tgz",
+      "archiveSha256": "1e7ac7a48a39187ae06a3032b0f2765462ee97c51748daa4491b9846411bc9c5",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-contain",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-contain-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-contain-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-1.6.1.tgz",
+      "archiveSha256": "2a78b39562f4553db259dcd8decbc8f5218f2066766c2597258a92ab91d7b2bb",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-cover",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-cover-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-cover-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-1.6.1.tgz",
+      "archiveSha256": "9206bcb6053e8a70a09e1e83679c252b49df1e0abd2532377fbafdee39c8240c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-crop",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-crop-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-crop-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-1.6.1.tgz",
+      "archiveSha256": "bc3f880f0d488d20b12d11ed2bac5d8abc28574ceb80203bb4b8ba4c4a8cea9d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-displace",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-displace-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-displace-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-1.6.1.tgz",
+      "archiveSha256": "e85384323ac6893efbb79a36955dec66968b8aa04f665c713c42fb7e6942ef4a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-dither",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-dither-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-dither-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-1.6.1.tgz",
+      "archiveSha256": "aad5a7db6d40969357843ec6b9dee44200e58bc572e2848c463451d8be05abaa",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-fisheye",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-fisheye-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-fisheye-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-1.6.1.tgz",
+      "archiveSha256": "44cc4064b8ecdff1151a0f7ecd835602c77ea292667075d5daf9df25cbbe41a4",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-flip",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-flip-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-flip-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-1.6.1.tgz",
+      "archiveSha256": "e5fd05ac8cc151cfe2d95ece1fbb82d44bb9c7721454344ae2d9dbbe3bb3e2b3",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-hash",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-hash-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-hash-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-hash/-/plugin-hash-1.6.1.tgz",
+      "archiveSha256": "e9cb7a6fdc4b21ffa8fa1d00f2372cec105da5b5eb6447db70bfbc22113b5f71",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-mask",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-mask-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-mask-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-1.6.1.tgz",
+      "archiveSha256": "26a1b3e54f165e8627e525012d2821698622fc4259b0330c9c36e4c397eb612d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-print",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-print-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-print-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-1.6.1.tgz",
+      "archiveSha256": "c5e8b8e65d82e2770139ec5aea4cec411da72c6447fedafaae9c2a37c45b29cc",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-quantize",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-quantize-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-quantize-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-quantize/-/plugin-quantize-1.6.1.tgz",
+      "archiveSha256": "87c7aa7a996ae0a3fca39ddfeade7ad4b24c46d7aa291fd9a68927d5a3970b5a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-resize",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-resize-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-resize-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-1.6.1.tgz",
+      "archiveSha256": "d77f53c822b6a1c7e50ddc1d3bdeecfbb894598713e2f4211bf1477cccf45765",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-rotate",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-rotate-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-rotate-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-1.6.1.tgz",
+      "archiveSha256": "e6782004191f735a5e877fc443d639bb39e28c32ed133b3910ae31ab3ebeef23",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/plugin-threshold",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_plugin-threshold-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_plugin-threshold-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-1.6.1.tgz",
+      "archiveSha256": "21be7712d4b49296823dd83e914de5304efb8bd6d54f4c47d66006ba9c5eaaa7",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/types",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_types-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_types-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/types/-/types-1.6.1.tgz",
+      "archiveSha256": "19235b635d523af613b18406ba399632f0564d4c265f2ed6e062a856ff728e96",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jimp/utils",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jimp_utils-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jimp_utils-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jimp/utils/-/utils-1.6.1.tgz",
+      "archiveSha256": "e00603147e5995051a2df07a77664d6c2e66ffc75169b85d9f4b750fa0ddd4a3",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@jsquash/webp",
+      "version": "1.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_jsquash_webp-1.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_jsquash_webp-1.5.0/package_LICENSE",
+          "bytes": 11343,
+          "sha256": "8c3690b09c168f196446cf5904332023bbc15eb92b6a7cee470ac829e6a65d20"
+        },
+        {
+          "path": "package/codec/LICENSE.codec.md",
+          "file": "_jsquash_webp-1.5.0/package_codec_LICENSE.codec.md",
+          "bytes": 1495,
+          "sha256": "e293d1dddc9785200b1f58a4f5293543cf8566d9e0b8a3c02fad955035b19f42"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/jamsinclair/jSquash.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@jsquash/webp/-/webp-1.5.0.tgz",
+      "archiveSha256": "b543cb1fc17e99c31e992a71d70da570d1bc1871ce3a88440df067e5b2e6ee9e",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@mariozechner/clipboard-win32-x64-msvc",
+      "version": "0.3.9",
+      "seenIn": [
+        "native/win32-x64/node_modules/@mariozechner/clipboard-win32-x64-msvc/package.json"
+      ],
+      "slug": "_mariozechner_clipboard-win32-x64-msvc-0.3.9",
+      "notices": [
+        {
+          "file": "npm/_mariozechner_clipboard-win32-x64-msvc-0.3.9/PUBLISHED-LICENSE-DECLARATION.json",
+          "source": "https://registry.npmjs.org/@mariozechner/clipboard-win32-x64-msvc/0.3.9",
+          "bytes": 2048,
+          "sha256": "28e4f2036faf5b66e35702c2a88d49ae5a9ca3bd1a596642bb31e884e97429bd",
+          "kind": "upstream-license-declaration"
+        },
+        {
+          "file": "npm/_mariozechner_clipboard-win32-x64-msvc-0.3.9/ORIGINAL-README.md",
+          "source": "https://registry.npmjs.org/@mariozechner/clipboard-win32-x64-msvc/-/clipboard-win32-x64-msvc-0.3.9.tgz#package/README.md",
+          "bytes": 120,
+          "sha256": "91ad6d84ce22a105ade522a1e6101caa0a4ad41686a3abc5dd697a94061219bb",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/_mariozechner_clipboard-win32-x64-msvc-0.3.9/REFERENCED-STANDARD-LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/json/details/MIT.json",
+          "bytes": 1078,
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "kind": "standard-terms-referenced-by-upstream-declaration"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/badlogic/clipboard.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@mariozechner/clipboard-win32-x64-msvc/-/clipboard-win32-x64-msvc-0.3.9.tgz",
+      "archiveSha256": "dd68ac609252b6a69dfd199ee4ca49ff9c8e15af8531ccfa31b34d9de41d65b1",
+      "integrityVerified": true,
+      "closed": true,
+      "coverageMethod": "published-license-declaration-plus-original-attribution-and-referenced-standard-terms",
+      "originalFullTextOmittedByUpstream": true
+    },
+    {
+      "name": "@mariozechner/clipboard",
+      "version": "0.3.9",
+      "seenIn": [
+        "native/win32-x64/node_modules/@mariozechner/clipboard/package.json"
+      ],
+      "slug": "_mariozechner_clipboard-0.3.9",
+      "notices": [
+        {
+          "file": "npm/_mariozechner_clipboard-0.3.9/PUBLISHED-LICENSE-DECLARATION.json",
+          "source": "https://registry.npmjs.org/@mariozechner/clipboard/0.3.9",
+          "bytes": 3390,
+          "sha256": "9252de51b347ab9226cbd1cab440809fa7992c333076691c91e093e3526a26e3",
+          "kind": "upstream-license-declaration"
+        },
+        {
+          "file": "npm/_mariozechner_clipboard-0.3.9/ORIGINAL-index.js",
+          "source": "https://registry.npmjs.org/@mariozechner/clipboard/-/clipboard-0.3.9.tgz#package/index.js",
+          "bytes": 25986,
+          "sha256": "eefb60afcf5b666c09e74280a62b5ebad8a854d53f791ab9442803c965f8649c",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/_mariozechner_clipboard-0.3.9/ORIGINAL-README.md",
+          "source": "https://registry.npmjs.org/@mariozechner/clipboard/-/clipboard-0.3.9.tgz#package/README.md",
+          "bytes": 2307,
+          "sha256": "c4f6357dcd297427b5cd21a5eed895dc5a6984eae1bda2c1d25a1af1fce66f4c",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/_mariozechner_clipboard-0.3.9/REFERENCED-STANDARD-LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/json/details/MIT.json",
+          "bytes": 1078,
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "kind": "standard-terms-referenced-by-upstream-declaration"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/badlogic/clipboard.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@mariozechner/clipboard/-/clipboard-0.3.9.tgz",
+      "archiveSha256": "25986ebeecaffadf3d1dd5f9199869057e4b64c37d7069c7f31c231dd86b5639",
+      "integrityVerified": true,
+      "closed": true,
+      "coverageMethod": "published-license-declaration-plus-original-attribution-and-referenced-standard-terms",
+      "originalFullTextOmittedByUpstream": true
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "version": "1.29.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_modelcontextprotocol_sdk-1.29.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_modelcontextprotocol_sdk-1.29.0/package_LICENSE",
+          "bytes": 1071,
+          "sha256": "5e13dbbc1d120fc2a03cecde7c91424ae2d7de11b63d58ded2f4431e261ee50d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/typescript-sdk.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.29.0.tgz",
+      "archiveSha256": "1c51470eca288ae744a5d8bb48e217d3eab5869eb2cbaf587fc29f336d6b096c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@moonshot-ai/pi-tui",
+      "version": "0.85.0",
+      "seenIn": [
+        "native/win32-x64/node_modules/@moonshot-ai/pi-tui/package.json"
+      ],
+      "slug": "_moonshot-ai_pi-tui-0.85.0",
+      "notices": [
+        {
+          "file": "npm/_moonshot-ai_pi-tui-0.85.0/UPSTREAM-LICENSE.txt",
+          "source": "MoonshotAI/kimi-code@684bae9ea6a437f3bae98bba1dcb797a917d500b/packages/pi-tui/LICENSE",
+          "bytes": 1069,
+          "sha256": "0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48",
+          "kind": "upstream-original-notice"
+        }
+      ],
+      "closed": true,
+      "license": "MIT"
+    },
+    {
+      "name": "@mozilla/readability",
+      "version": "0.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_mozilla_readability-0.6.0",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "_mozilla_readability-0.6.0/package_LICENSE.md",
+          "bytes": 553,
+          "sha256": "a5b1e8181751ce05b85b7bfaa832b785e87086250a5148e679d17ca9bdcfa958"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/mozilla/readability.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@mozilla/readability/-/readability-0.6.0.tgz",
+      "archiveSha256": "6d3c3cc50dad51b543925deadc66d5b58cd2262d1d585f2ae0a44975627ad919",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@pinojs/redact",
+      "version": "0.4.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_pinojs_redact-0.4.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_pinojs_redact-0.4.0/package_LICENSE",
+          "bytes": 1076,
+          "sha256": "58d4023bfbed5fb530c5bb8d44641299eac62c850267415ec939cc42dea87e4f"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/pinojs/redact.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@pinojs/redact/-/redact-0.4.0.tgz",
+      "archiveSha256": "d66004def64efb6c13629b0740639344e0775fe537373674571711a2bb2fc704",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@stablelib/base64",
+      "version": "1.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_stablelib_base64-1.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_stablelib_base64-1.0.1/package_LICENSE",
+          "bytes": 1110,
+          "sha256": "1605b77bebe018db1fc27bd22fbcdeed1335c617937a124299a8b042b42b0fb6"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/StableLib/stablelib.git"
+      },
+      "source": "https://registry.npmjs.org/@stablelib/base64/-/base64-1.0.1.tgz",
+      "archiveSha256": "0130711d2e0d3f87436c7825db1f35bd6134fba2eda64b0df43d781f9b6a596a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "@tokenizer/inflate",
+      "version": "0.4.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "_tokenizer_inflate-0.4.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "_tokenizer_inflate-0.4.1/package_LICENSE",
+          "bytes": 1072,
+          "sha256": "5bb0e8b566dee0e946cafd9bbed359eb0494580df86457876b4f41bba5c77b25"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Borewit/tokenizer-inflate.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/@tokenizer/inflate/-/inflate-0.4.1.tgz",
+      "archiveSha256": "41f6a60b13cf29eebdd06723223dc68ff1d47721d56e4fef93d2d450167d9dc0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "abstract-logging",
+      "version": "2.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "abstract-logging-2.0.1",
+      "notices": [
+        {
+          "file": "npm/abstract-logging-2.0.1/PUBLISHED-LICENSE-DECLARATION.json",
+          "source": "https://registry.npmjs.org/abstract-logging/2.0.1",
+          "bytes": 2681,
+          "sha256": "6308e5d41044b560d23eef682a32976c87e89c4cfecb07f9b766c0c9c64fd813",
+          "kind": "upstream-license-declaration"
+        },
+        {
+          "file": "npm/abstract-logging-2.0.1/ORIGINAL-index.js",
+          "source": "https://registry.npmjs.org/abstract-logging/-/abstract-logging-2.0.1.tgz#package/index.js",
+          "bytes": 235,
+          "sha256": "f2886112236b5abaddb9dbd5c4962f037fb9a9879b6fcd0765158ecdb7188dfa",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/abstract-logging-2.0.1/ORIGINAL-Readme.md",
+          "source": "https://registry.npmjs.org/abstract-logging/-/abstract-logging-2.0.1.tgz#package/Readme.md",
+          "bytes": 1070,
+          "sha256": "e1a86711fb5055c0e66901276b7d2c843554bf5f1dab218c069c8b9d17148e81",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/abstract-logging-2.0.1/AUTHOR-LICENSE.html",
+          "source": "https://jsumners.mit-license.org/",
+          "bytes": 3707,
+          "sha256": "cf5dde31fb707dc0436f085b7d8a79bc70ebf97b93c13700d56138531e82a64e",
+          "kind": "original-notice"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jsumners/abstract-logging.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/abstract-logging/-/abstract-logging-2.0.1.tgz",
+      "archiveSha256": "9a2ab6159e9d3b04e10f1536fab762d18e09d353941a298171e57b6e25640994",
+      "integrityVerified": true,
+      "closed": true,
+      "coverageMethod": "author-license-url-from-published-readme"
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "agent-base-7.1.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "agent-base-7.1.4/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/TooTallNate/proxy-agents.git",
+        "type": "git",
+        "directory": "packages/agent-base"
+      },
+      "source": "https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz",
+      "archiveSha256": "7dd4a61668a9a4e8d4e903f1a254f94d53dafd3f316f2b9b597c5ad8c79cb57e",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ajv-formats-3.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ajv-formats-3.0.1/package_LICENSE",
+          "bytes": 1074,
+          "sha256": "9df3bb69929a3b650ed73b3bfa1756725aaff0ac296461605753547004eafeaf"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/ajv-validator/ajv-formats.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz",
+      "archiveSha256": "f4d6980fd367381fd29199066911e863db8d97496613b6c2c5b91563a150acc5",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ajv",
+      "version": "8.18.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ajv-8.18.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ajv-8.18.0/package_LICENSE",
+          "bytes": 1090,
+          "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/ajv-validator/ajv.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ajv/-/ajv-8.18.0.tgz",
+      "archiveSha256": "522a6e330be5f537ca152618413b34e857ee8ff9e3f6a8ae17a2bffe788c9cc0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ansi-styles-4.3.0",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "ansi-styles-4.3.0/package_license",
+          "bytes": 1109,
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/chalk/ansi-styles.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+      "archiveSha256": "2c539a46d85ab6033183997434d2d9a5ca2ceefc12b4db9022f564784cd7987f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "any-base",
+      "version": "1.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "any-base-1.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "any-base-1.1.0/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "aedafeae58d48d949d59d808112126c97ff0ce47f92dbe80336898d22dbecf23"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/HarasimowiczKamil/any-base.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/any-base/-/any-base-1.1.0.tgz",
+      "archiveSha256": "c07f609bdba5b4eca20cec1e84c510f3c4a925f802bd3d50ebf008aeb411a5fc",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "atomic-sleep",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "atomic-sleep-1.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "atomic-sleep-1.0.0/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "8d58741278b289a7f4b6dde2d6273fca7711b9849452c477933d1cccd03db1e7"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/davidmarkclements/atomic-sleep.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/atomic-sleep/-/atomic-sleep-1.0.0.tgz",
+      "archiveSha256": "44749ee4b82d2b5fa66323af77c5b836c08368667015a9c8a966033801a56964",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "avvio",
+      "version": "9.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "avvio-9.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "avvio-9.2.0/package_LICENSE",
+          "bytes": 1201,
+          "sha256": "af2dd164640b8bf4ee95b3f10dc33cde95df232c0fccd853f6e4a029b7d0dae4"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/avvio.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/avvio/-/avvio-9.2.0.tgz",
+      "archiveSha256": "42fbe46d1edc1c5037b47815f57d9abd156f71d1c90ff3273569e32ed9a81bf0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "await-to-js",
+      "version": "3.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "await-to-js-3.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "await-to-js-3.0.0/package_LICENSE",
+          "bytes": 1072,
+          "sha256": "e5909d19273f75386213370789163e2cc09089883e3f9d780cb3b2bcbe8023d2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/scopsy/await-to-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/await-to-js/-/await-to-js-3.0.0.tgz",
+      "archiveSha256": "3309837cd8ec3d84dd43edee853bf08f90e49fa524afb7c110409308c11b4864",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "base64-js-1.5.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "base64-js-1.5.1/package_LICENSE",
+          "bytes": 1081,
+          "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/beatgammit/base64-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+      "archiveSha256": "b1b7a945b52685269083425216d6597e33d97bf21699d656e92fdb3eb5210a85",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "bcryptjs",
+      "version": "2.4.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "bcryptjs-2.4.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "bcryptjs-2.4.3/package_LICENSE",
+          "bytes": 2665,
+          "sha256": "56195c434c0385faf699a48cfad51ee37b258e1176b25ab7fd29ff1b457212ed"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/dcodeIO/bcrypt.js.git",
+        "type": "url"
+      },
+      "source": "https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.4.3.tgz",
+      "archiveSha256": "136fa46e2f96b535d5e8b61388dbf9e50e16afc4057d3fe303430a6469d7b2e3",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "bignumber.js",
+      "version": "9.3.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "bignumber.js-9.3.1",
+      "notices": [
+        {
+          "path": "package/LICENCE.md",
+          "file": "bignumber.js-9.3.1/package_LICENCE.md",
+          "bytes": 1147,
+          "sha256": "def75ba75d6426f1c3f02addf8e175fbe6e0d8a82e541cbdffc16d2bd8fd7d6a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/MikeMcl/bignumber.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.3.1.tgz",
+      "archiveSha256": "f5a943ea290e66f64cb9adaaed2ff1b7c4ee02a4cca9d709d9c9c6c222512e82",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "bmp-ts",
+      "version": "1.0.9",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "bmp-ts-1.0.9",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "bmp-ts-1.0.9/package_LICENSE",
+          "bytes": 1082,
+          "sha256": "8bfcf12013c5d0707794813d1f2787917eada9b8643bf47bfe0306fe018624c8"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/hipstersmoothie/bmp-ts.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/bmp-ts/-/bmp-ts-1.0.9.tgz",
+      "archiveSha256": "cc639bca40aac5549bb4f3ee40751883723d138a94df5de0d9312da83a65bcf1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "boolbase",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "boolbase-1.0.0",
+      "notices": [
+        {
+          "file": "npm/boolbase-1.0.0/PUBLISHED-LICENSE-DECLARATION.json",
+          "source": "https://registry.npmjs.org/boolbase/1.0.0",
+          "bytes": 1327,
+          "sha256": "fb2c25219114644749aaaaf8476769ccddd350837bc2c0e95ea50c56253558c3",
+          "kind": "upstream-license-declaration"
+        },
+        {
+          "file": "npm/boolbase-1.0.0/ORIGINAL-README.md",
+          "source": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz#package/README.md",
+          "bytes": 655,
+          "sha256": "9cac5bfc290d30ccd13fa833923cb545584481e8ced66380bf758f1053f9d81d",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/boolbase-1.0.0/ORIGINAL-index.js",
+          "source": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz#package/index.js",
+          "bytes": 125,
+          "sha256": "c62510fca8738c7444cdf5012bdd0ce214a1b6f7eaff7facb3a919e4656d7341",
+          "kind": "original-attribution"
+        },
+        {
+          "file": "npm/boolbase-1.0.0/REFERENCED-STANDARD-LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/json/details/ISC.json",
+          "bytes": 823,
+          "sha256": "f2ec607f67bb0dd3053b49835b02110d5cd0f8eb6da3aac4dc0b142a6b299be9",
+          "kind": "standard-terms-referenced-by-upstream-declaration"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "https://github.com/fb55/boolbase",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz",
+      "archiveSha256": "69628ff8092c5ff940ea4a0f29da98d520615bae138755c9e059033606c6caa8",
+      "integrityVerified": true,
+      "closed": true,
+      "coverageMethod": "published-license-declaration-plus-original-attribution-and-referenced-standard-terms",
+      "originalFullTextOmittedByUpstream": true
+    },
+    {
+      "name": "buffer-crc32",
+      "version": "0.2.13",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "buffer-crc32-0.2.13",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "buffer-crc32-0.2.13/package_LICENSE",
+          "bytes": 1085,
+          "sha256": "14895b82e3367b66bdb127fe91505f8615491f2a23eb1c0b7d8f7c54be67f57a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/brianloveswords/buffer-crc32.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz",
+      "archiveSha256": "27d1154427f0131259994c6849888411be7d43723589e383487fd5886f53c66d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "buffer-crc32",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "buffer-crc32-1.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "buffer-crc32-1.0.0/package_LICENSE",
+          "bytes": 1082,
+          "sha256": "ddc9158fa20e427bc12fa8e1e6d07c642ed4d2c618607df768b30ae2986b3b7c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/brianloveswords/buffer-crc32.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-1.0.0.tgz",
+      "archiveSha256": "bbedaab7c94b9d392ea85da0a77c18c3a0bce3d47a1ca1685af11a747b2883ee",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "buffer-equal-constant-time-1.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "buffer-equal-constant-time-1.0.1/package_LICENSE.txt",
+          "bytes": 1518,
+          "sha256": "751d0e80fb5c828f8c3de198cc760e1e05377e47c8263ab6ee2f10cdc19ba658"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git@github.com:goinstant/buffer-equal-constant-time.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz",
+      "archiveSha256": "8f455159e342103e7854ed6a4cc73edbab144d857917c88edefea862f09fe75a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "chalk-4.1.2",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "chalk-4.1.2/package_license",
+          "bytes": 1109,
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/chalk/chalk.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+      "archiveSha256": "e84c643aa53e87ace6c3d368b3cddda24a2d1434a06b6dfbdb628ad2107df90a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "chalk",
+      "version": "5.6.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "chalk-5.6.2",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "chalk-5.6.2/package_license",
+          "bytes": 1117,
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/chalk/chalk.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz",
+      "archiveSha256": "94957715a483aa3b9db60c8f22d5498227d8025c407f982eef81e34f37574ffd",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "chokidar",
+      "version": "4.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "chokidar-4.0.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "chokidar-4.0.3/package_LICENSE",
+          "bytes": 1124,
+          "sha256": "bdfd5e0edb6089e6586c8f15e6a86fab83ffbeeda3b3b7b33734ccb8c5906965"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/paulmillr/chokidar.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz",
+      "archiveSha256": "61a29da9d314c2cd33a7be7327014814c4620673e3d4be41b120aa8544868389",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "cli-highlight",
+      "version": "2.1.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "cli-highlight-2.1.11",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "cli-highlight-2.1.11/package_LICENSE.txt",
+          "bytes": 754,
+          "sha256": "2537bb3d445dd08c12be3ec5c686f0394a3ccd6bfa94dac5d269940a9cb7ff98"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/felixfbecker/cli-highlight.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/cli-highlight/-/cli-highlight-2.1.11.tgz",
+      "archiveSha256": "7b78e6a2bb8fcd5a49523dcc5149e38bd9d515ca66f26b266cc0b779d55a581f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "color-convert-2.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "color-convert-2.0.1/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Qix-/color-convert.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+      "archiveSha256": "920fa43538c019a085dbbf04cb6f72cc337624e5f5217519f0e7b2ef784e7ce1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "color-name-1.1.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "color-name-1.1.4/package_LICENSE",
+          "bytes": 1085,
+          "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/colorjs/color-name.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+      "archiveSha256": "507b7c4461e8eb941355af9a59e9a7e02cd0e7c6176b48d1809766344f3f1708",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "commander",
+      "version": "13.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "commander-13.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "commander-13.1.0/package_LICENSE",
+          "bytes": 1098,
+          "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/tj/commander.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/commander/-/commander-13.1.0.tgz",
+      "archiveSha256": "d5703ba285336d6d6d86fecf7a9f064e248879497d98ccc98ca849a62e34822a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "cookie",
+      "version": "1.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "cookie-1.1.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "cookie-1.1.1/package_LICENSE",
+          "bytes": 1175,
+          "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jshttp/cookie.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz",
+      "archiveSha256": "0e9342b066986722098d9b108b238033862eae90b3d53ff90581538264d91b60",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "css-select",
+      "version": "5.2.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "css-select-5.2.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "css-select-5.2.2/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git://github.com/fb55/css-select.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz",
+      "archiveSha256": "ab3c2a9c47abc354e4bb539f66746da87c80ed9e9623f4b0940147d0a1b2ae75",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "css-what",
+      "version": "6.2.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "css-what-6.2.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "css-what-6.2.2/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git+https://github.com/fb55/css-what.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz",
+      "archiveSha256": "275ef51d6c04b5f6e2441d73fa3503c5ac525cd82ef4ca55f022eeacaf227ab0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "cssom",
+      "version": "0.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "cssom-0.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "cssom-0.5.0/package_LICENSE.txt",
+          "bytes": 1054,
+          "sha256": "e539937c489c4928ad7461669ec017f4d916fb3565fc26f5b8a0ce816d2ed23c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/NV/CSSOM.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/cssom/-/cssom-0.5.0.tgz",
+      "archiveSha256": "3c5d870a99e6d22f185a606adb757937975a6cecbbc7eeacd7340382438be599",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "data-uri-to-buffer",
+      "version": "4.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "data-uri-to-buffer-4.0.1",
+      "notices": [
+        {
+          "file": "npm/data-uri-to-buffer-4.0.1/PUBLISHED-README-LICENSE.txt",
+          "source": "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz#package/README.md",
+          "bytes": 2926,
+          "sha256": "a7cc4332acfa1f9b6530e01aac77fefe74f2efa32579215fddaa473013f9a25c",
+          "kind": "upstream-original-notice"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/TooTallNate/node-data-uri-to-buffer.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz",
+      "archiveSha256": "a5742b1b775d0b29fb562ff7e12f7ca19874e1c47322087b47a79230791642a1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "debug-4.4.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "debug-4.4.3/package_LICENSE",
+          "bytes": 1139,
+          "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/debug-js/debug.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "archiveSha256": "89c1ac9c946ee8905a875837114528e97eeae35e03be3190584b2216af43e4a7",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "dequal",
+      "version": "2.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "dequal-2.0.3",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "dequal-2.0.3/package_license",
+          "bytes": 1114,
+          "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/lukeed/dequal.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz",
+      "archiveSha256": "941d90d6629878167d10d2a05d8c6df8f8fa13acc826616abb49db63ac6a5c35",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "dijkstrajs",
+      "version": "1.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "dijkstrajs-1.0.3",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "dijkstrajs-1.0.3/package_LICENSE.md",
+          "bytes": 714,
+          "sha256": "c46324e45a005413535a6fb7a97e9eacd3cc6bf30335b7d5c10b8ee3af9e60c2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/tcort/dijkstrajs.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/dijkstrajs/-/dijkstrajs-1.0.3.tgz",
+      "archiveSha256": "07149886ab98299c227b8de61912770b24b8a17b250996a4b5727c9f8bff4c00",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "dom-serializer",
+      "version": "2.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "dom-serializer-2.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "dom-serializer-2.0.0/package_LICENSE",
+          "bytes": 1098,
+          "sha256": "94cfe87de9b178e8fee313a19178e625129e2ce559db32e772e7bd95114ee6ff"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/cheeriojs/dom-serializer.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz",
+      "archiveSha256": "e34511f144fc6b34ce536bd60fb1ed27dd965f07a7c317407e79dd6be9e8f399",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "domelementtype",
+      "version": "2.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "domelementtype-2.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "domelementtype-2.3.0/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git://github.com/fb55/domelementtype.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz",
+      "archiveSha256": "c67164b4a994eaeaecbd968c2e5e5415407ae6fb4486bbb470594154e25feb45",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "domhandler",
+      "version": "5.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "domhandler-5.0.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "domhandler-5.0.3/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git://github.com/fb55/domhandler.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz",
+      "archiveSha256": "f3952abb7e2635d8e942822d68cfb1fdaba61148d17a1a5692bdd163d6ca4784",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "domutils",
+      "version": "3.2.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "domutils-3.2.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "domutils-3.2.2/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git://github.com/fb55/domutils.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz",
+      "archiveSha256": "272918a13e7e093ddc983666954164e098fb2443f06f476f34bf47005e12c140",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ecdsa-sig-formatter-1.0.11",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ecdsa-sig-formatter-1.0.11/package_LICENSE",
+          "bytes": 11312,
+          "sha256": "50a6b24f8defc31a078aa9799a91d776f83948071574854f12473362aee74d0d"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+ssh://git@github.com/Brightspace/node-ecdsa-sig-formatter.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz",
+      "archiveSha256": "487cb94dff2414772c3bb648a5e4e41c03cbbcc64263d08a56e36d735fc848fe",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "entities",
+      "version": "4.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "entities-4.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "entities-4.5.0/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git://github.com/fb55/entities.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz",
+      "archiveSha256": "6b0c60f7351a0b65bb1fc8dbb9299f09e7ecf6d89103d0651bf369e6f463a632",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "entities",
+      "version": "7.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "entities-7.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "entities-7.0.1/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git+https://github.com/fb55/entities.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/entities/-/entities-7.0.1.tgz",
+      "archiveSha256": "554b7e2a79fa9eda0439714011fa42d77c6829842faa91e022070015bfd483a0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "eventsource-parser",
+      "version": "3.0.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "eventsource-parser-3.0.6",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "eventsource-parser-3.0.6/package_LICENSE",
+          "bytes": 1098,
+          "sha256": "0ed3f0dbbe73375664ee877b4cf571ce3e4b2e22ebf1a9dfb352643cba41df63"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/rexxars/eventsource-parser.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.0.6.tgz",
+      "archiveSha256": "445c647d0fe2228184a66b2bfbcea173aa758ebb606fb2f079ce9b328c9537e9",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "eventsource",
+      "version": "3.0.7",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "eventsource-3.0.7",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "eventsource-3.0.7/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://git@github.com/EventSource/eventsource.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/eventsource/-/eventsource-3.0.7.tgz",
+      "archiveSha256": "7c62d4bb196e59b39c5af79e550d6fe4261649a74d9f5e605b071e1da6081c92",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "exif-parser",
+      "version": "0.1.12",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "exif-parser-0.1.12",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "exif-parser-0.1.12/package_LICENSE.md",
+          "bytes": 1150,
+          "sha256": "3c58bdcad5b1313456b7cf639574708a84a80ee6bddf1a26f0c5fc4d7ab1830b"
+        }
+      ],
+      "license": null,
+      "repository": {
+        "url": "git+ssh://git@github.com/bwindels/exif-parser.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/exif-parser/-/exif-parser-0.1.12.tgz",
+      "archiveSha256": "b3eaa69cf318f4c9a483b7a19f17ceffd96dd2dcb03366f1c19d37b4d1156981",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "extend-3.0.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "extend-3.0.2/package_LICENSE",
+          "bytes": 1081,
+          "sha256": "97af7428f93afbab9bf79cd09254da1357161794f4255eb1b4599f04dd2d2e7c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/justmoon/node-extend.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
+      "archiveSha256": "1d91d0b0faa50cba223fa937c7b5a4a662968b1d78b3e59dca5c917dd5cf72b2",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-decode-uri-component",
+      "version": "1.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-decode-uri-component-1.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-decode-uri-component-1.0.1/package_LICENSE",
+          "bytes": 1174,
+          "sha256": "27384b39baee4b476fb876670a75f282286fa55658bf0db14639621dd3801c9a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/delvedor/fast-decode-uri-component.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-decode-uri-component/-/fast-decode-uri-component-1.0.1.tgz",
+      "archiveSha256": "de015feadef7113b88f0a56a04f8f7b4f3566d43823adc452216fc081ce8d2a7",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-deep-equal-3.1.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-deep-equal-3.1.3/package_LICENSE",
+          "bytes": 1074,
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/epoberezkin/fast-deep-equal.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz",
+      "archiveSha256": "b019a0980f27638dc3f85836b0e478f188e00d7a6e5852c0819fa86f56e47b8f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-json-stringify",
+      "version": "6.4.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-json-stringify-6.4.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-json-stringify-6.4.0/package_LICENSE",
+          "bytes": 1165,
+          "sha256": "b08de5bb7b21f44a8358edf74febe50c75ef2a1e5470e06c8919eb934cba067c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fast-json-stringify.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-json-stringify/-/fast-json-stringify-6.4.0.tgz",
+      "archiveSha256": "c09d8299536ca58dabc36e2789d2b9b78aa13dec4dc1c7b59d9cd08f6ca73434",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-querystring",
+      "version": "1.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-querystring-1.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-querystring-1.1.2/package_LICENSE",
+          "bytes": 1057,
+          "sha256": "4f8cf48502224399442f7eadd8620d96ef18125f9beb4949c53084ab3b05a4d4"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/anonrig/fast-querystring.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-querystring/-/fast-querystring-1.1.2.tgz",
+      "archiveSha256": "f165a9cb6994ee56b985821adcab43d858cbad39cfcd3315424a7552b732a722",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-sha256",
+      "version": "1.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-sha256-1.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-sha256-1.3.0/package_LICENSE",
+          "bytes": 1210,
+          "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+        }
+      ],
+      "license": "Unlicense",
+      "repository": {
+        "url": "git+https://github.com/dchest/fast-sha256-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-sha256/-/fast-sha256-1.3.0.tgz",
+      "archiveSha256": "4f897ea2594dc9cfb1250e7d4d0f65b4f105952a802fff2d06990bf1dc2c84f6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fast-uri",
+      "version": "3.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fast-uri-3.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fast-uri-3.1.0/package_LICENSE",
+          "bytes": 1852,
+          "sha256": "185ef4f377743572c2bf0931f741fae52401268cbe70c880b74063799814083e"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/fastify/fast-uri.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.0.tgz",
+      "archiveSha256": "3ad33c6b4bd8cc1d5f867b7453cc783a96ffc89101a9ad3a8bcfe7905a83581d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fastify-plugin",
+      "version": "5.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fastify-plugin-5.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fastify-plugin-5.1.0/package_LICENSE",
+          "bytes": 1162,
+          "sha256": "fe26044de416cf0cdb2cfd12ed299e5756d05b5d2ee6c59d3fd25ed304635d58"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fastify-plugin.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-5.1.0.tgz",
+      "archiveSha256": "27c12cf73dd7f2b31d4b5220e572e870eb938570f106cdeeb3bf092f1aba8dc3",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fastify",
+      "version": "5.8.5",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fastify-5.8.5",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fastify-5.8.5/package_LICENSE",
+          "bytes": 1123,
+          "sha256": "23c91863859171455a536380991b4160fee4e19e2d8dc353ecf7143cc4e53ca2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/fastify.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fastify/-/fastify-5.8.5.tgz",
+      "archiveSha256": "c32d15f6f9016f6f04872405f3be3136c97d8e45620e76f8f467a171ee1c59ee",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fastq",
+      "version": "1.20.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fastq-1.20.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fastq-1.20.1/package_LICENSE",
+          "bytes": 765,
+          "sha256": "c3367f6d01a79d368fc4fbb41b3615fcd92f243d6597ab96742f6f976f9325af"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/mcollina/fastq.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz",
+      "archiveSha256": "6603b1b41a0dedbb3dd2e13fbb885a6df366ef83d26f5bf0f781fd9358d5a19f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "fetch-blob",
+      "version": "3.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "fetch-blob-3.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "fetch-blob-3.2.0/package_LICENSE",
+          "bytes": 1068,
+          "sha256": "a5edccac92c3aa845694dcfaa72a0c098c1ae40d5ca6a37e4e59d778cf8e29bd"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/node-fetch/fetch-blob.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz",
+      "archiveSha256": "4abf0d58a4977fce2240e08c280a2bc59f5363e9553a4f236cea6d74cce40c52",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "file-type",
+      "version": "21.3.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "file-type-21.3.4",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "file-type-21.3.4/package_license",
+          "bytes": 1117,
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/file-type.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/file-type/-/file-type-21.3.4.tgz",
+      "archiveSha256": "1fbe3e298dfbfa1854600b7891c237a1d2fccaa644f1945919516480206002c9",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "find-my-way",
+      "version": "9.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "find-my-way-9.6.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "find-my-way-9.6.0/package_LICENSE",
+          "bytes": 1080,
+          "sha256": "693f9539655acc1847add1ccd364312ba570bf8ce84706b6059e7e0b5ceb90e6"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/delvedor/find-my-way.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/find-my-way/-/find-my-way-9.6.0.tgz",
+      "archiveSha256": "f651d6ed018c404baefb808e640ba8b50de9fe983f4735ae96c3b7ab02ca6ccd",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "formdata-polyfill",
+      "version": "4.0.10",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "formdata-polyfill-4.0.10",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "formdata-polyfill-4.0.10/package_LICENSE",
+          "bytes": 1083,
+          "sha256": "435a6437e47e5e479942255680e7fbe5f333d55234ada1c35f6115ca641d5bb4"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://jimmywarting@github.com/jimmywarting/FormData.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz",
+      "archiveSha256": "1ff73b4138ea33f0fd0f41b67910409a2c8eb1b71a4cf1a4f8ab738a6e8487e9",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "gaxios",
+      "version": "7.1.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "gaxios-7.1.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "gaxios-7.1.4/package_LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/googleapis/google-cloud-node-core.git",
+        "type": "git",
+        "directory": "packages/gaxios"
+      },
+      "source": "https://registry.npmjs.org/gaxios/-/gaxios-7.1.4.tgz",
+      "archiveSha256": "231fb53f65108cb787acb02ae1a65e47ab9020d686575db5c07302867af17eb2",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "8.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "gcp-metadata-8.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "gcp-metadata-8.1.2/package_LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/googleapis/google-cloud-node-core.git",
+        "type": "git",
+        "directory": "packages/gcp-metadata"
+      },
+      "source": "https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-8.1.2.tgz",
+      "archiveSha256": "f9c3f2c868755c074152ecd291733c56c536678b0284c34c3613365bc730db94",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "get-east-asian-width",
+      "version": "1.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "get-east-asian-width-1.6.0",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "get-east-asian-width-1.6.0/package_license",
+          "bytes": 1117,
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/get-east-asian-width.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz",
+      "archiveSha256": "4451f58e2f5a4ef27ae8b4ba25b64be97d3a8413dc8614a4321a10d418eee6d7",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "gifwrap",
+      "version": "0.10.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "gifwrap-0.10.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "gifwrap-0.10.1/package_LICENSE",
+          "bytes": 1070,
+          "sha256": "c28a483580454d61210a1c7cc0899d75b68fa875cc7940ebafde3c49ca762439"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jtlapp/gifwrap.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/gifwrap/-/gifwrap-0.10.1.tgz",
+      "archiveSha256": "9b23f3a00202c545ff456085050b059cd7de693b7bfff5b7291c29c49bc150e1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "google-auth-library",
+      "version": "10.6.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "google-auth-library-10.6.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "google-auth-library-10.6.2/package_LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/googleapis/google-cloud-node-core.git",
+        "type": "git",
+        "directory": "packages/google-auth-library-nodejs"
+      },
+      "source": "https://registry.npmjs.org/google-auth-library/-/google-auth-library-10.6.2.tgz",
+      "archiveSha256": "707a26e3dae617a5ae0a3758b8de8745ab942969f651643a76a84cbaf4ee1ba5",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "1.1.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "google-logging-utils-1.1.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "google-logging-utils-1.1.3/package_LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/googleapis/google-cloud-node-core.git",
+        "type": "git",
+        "directory": "dev-packages/logging-utils"
+      },
+      "source": "https://registry.npmjs.org/google-logging-utils/-/google-logging-utils-1.1.3.tgz",
+      "archiveSha256": "3a921c0d4e333f94be726fc2c0ce10025f8d87f8fae5affa01a52b2da7970bbd",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "graceful-fs-4.2.11",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "graceful-fs-4.2.11/package_LICENSE",
+          "bytes": 791,
+          "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/isaacs/node-graceful-fs.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz",
+      "archiveSha256": "3961374aa161e6fed80d6f4b6aaf2fb7eafd2c9e5be34e865b375f0114dd099c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "has-flag",
+      "version": "4.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "has-flag-4.0.0",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "has-flag-4.0.0/package_license",
+          "bytes": 1109,
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/has-flag.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+      "archiveSha256": "77a7eb1411d927bb8a5ca7069dbe168886d63c88f446f0b81500a2cf23ddb5b1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "highlight.js",
+      "version": "10.7.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "highlight.js-10.7.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "highlight.js-10.7.3/package_LICENSE",
+          "bytes": 1514,
+          "sha256": "6c081431591d9df696c82dc598fe1423765b8a299b200ed00b281afd0f64c490"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git://github.com/highlightjs/highlight.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz",
+      "archiveSha256": "292968c31d106f910fdd2e4d73a98d9bdf621e5f6e0244d9f3fbfc3572bea91e",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "hono",
+      "version": "4.12.14",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "hono-4.12.14",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "hono-4.12.14/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "a6ab98e5c77b9070c443eaff2ff81034a6f8cc05a7524d5098eb0f24defa0115"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/honojs/hono.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/hono/-/hono-4.12.14.tgz",
+      "archiveSha256": "2d3024a5616f4086f75808e4269f72849e24128c6045613901b7da5c2b2d7e37",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "htmlparser2",
+      "version": "10.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "htmlparser2-10.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "htmlparser2-10.1.0/package_LICENSE",
+          "bytes": 1104,
+          "sha256": "204cfa747341660e4da64cd23e8c876c6b20279d247f48564993d3fc4a2eab47"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/fb55/htmlparser2.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.1.0.tgz",
+      "archiveSha256": "0651eb776dbf530c8c77fb4ca6ad39fc14863a44eac2486981e78d004fad877d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "https-proxy-agent-7.0.6",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "https-proxy-agent-7.0.6/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/TooTallNate/proxy-agents.git",
+        "type": "git",
+        "directory": "packages/https-proxy-agent"
+      },
+      "source": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz",
+      "archiveSha256": "960f89e8e5240882f64249d04a538421dd39d62ffacc138544647cc3251bc0e0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ignore",
+      "version": "5.3.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ignore-5.3.2",
+      "notices": [
+        {
+          "path": "package/LICENSE-MIT",
+          "file": "ignore-5.3.2/package_LICENSE-MIT",
+          "bytes": 1095,
+          "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/kaelzhang/node-ignore.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz",
+      "archiveSha256": "8e9652205f5fca36dec78e11650ed998e639f5744600e1dbfc024cd627eed8bd",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "image-q",
+      "version": "4.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "image-q-4.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "image-q-4.0.0/package_LICENSE",
+          "bytes": 2249,
+          "sha256": "74773cfa34cf18a6652f84f4f1912ceb88f35e90f15d27a2f8d0cde278c46ce9"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/ibezkrovnyi/image-quantization.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/image-q/-/image-q-4.0.0.tgz",
+      "archiveSha256": "ab2ba39b73c3a0a02f5dcb03d6017b03a7d13b69e2782468dc3203a1f4f811d8",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "immer",
+      "version": "11.1.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "immer-11.1.11",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "immer-11.1.11/package_LICENSE",
+          "bytes": 1074,
+          "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/immerjs/immer.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/immer/-/immer-11.1.11.tgz",
+      "archiveSha256": "f32a407abacfe186df97a3538729c9b2d923282b096748e614830eb447963a90",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ip-address",
+      "version": "10.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ip-address-10.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ip-address-10.2.0/package_LICENSE",
+          "bytes": 1061,
+          "sha256": "f8d791359a50cbcac82c29cb7b0b1b889b28be76fdd35b8ee33f0f7c8704702a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/beaugunderson/ip-address.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ip-address/-/ip-address-10.2.0.tgz",
+      "archiveSha256": "37e0ddc03f4d1576c11b4405b022c41cdbcdcf1347f07fa96ea03d75f9a7c0ba",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ipaddr.js",
+      "version": "2.4.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ipaddr.js-2.4.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ipaddr.js-2.4.0/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/whitequark/ipaddr.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-2.4.0.tgz",
+      "archiveSha256": "c44e3cdd05be3747a867233e0c77d0cf950e51b60fc5e1aa72b4514a32073958",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "jimp",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "jimp-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "jimp-1.6.1/package_LICENSE",
+          "bytes": 1069,
+          "sha256": "942eab097945c835cf41abcbf1b9a6659c5d0c3493e60c56796d2e045c219278"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimp-dev/jimp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/jimp/-/jimp-1.6.1.tgz",
+      "archiveSha256": "e47160ebd3ba4aa08237de946b87b66deb846c0967ad251c1b1b4dafcf0101f6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "jpeg-js",
+      "version": "0.4.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "jpeg-js-0.4.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "jpeg-js-0.4.4/package_LICENSE",
+          "bytes": 1448,
+          "sha256": "c0a8512eabe960492fefd4f287523eb3b5ca1518ca37ef0ec83344cd7f089cb8"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/eugeneware/jpeg-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz",
+      "archiveSha256": "269f988267bc71efe58baf97e8b2da064b5bbbbb8b0eab11e2149049935e1160",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "js-yaml-4.1.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "js-yaml-4.1.1/package_LICENSE",
+          "bytes": 1084,
+          "sha256": "a07bc24468b9654ce76a547d47a2db282d07733b715db4c73a98bd63961f9550"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/nodeca/js-yaml.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz",
+      "archiveSha256": "948181607d4fb62dde7b9e04a62d89b20e62cd0c5659ceb711bc31768d00436f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "json-bigint",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "json-bigint-1.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "json-bigint-1.0.0/package_LICENSE",
+          "bytes": 1081,
+          "sha256": "def82c085d05e795fe6a9cb5b70c48e022212355afc0e91d4de047cade28df06"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/sidorares/json-bigint.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/json-bigint/-/json-bigint-1.0.0.tgz",
+      "archiveSha256": "4c4f502953cfb36cfe1c6c4989676bf9b76899a253237fc0220814b88ff903b6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "json-schema-ref-resolver",
+      "version": "3.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "json-schema-ref-resolver-3.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "json-schema-ref-resolver-3.0.0/package_LICENSE",
+          "bytes": 1064,
+          "sha256": "0943b637252a9c6f1a062c77063aa58213ae93a18d5445f2fb77d1de7c60dc12"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/json-schema-ref-resolver.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/json-schema-ref-resolver/-/json-schema-ref-resolver-3.0.0.tgz",
+      "archiveSha256": "abbcae713d66f530be057b05affde461e0c8041a6f72bdd641eceacb673e9e62",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "json-schema-resolver",
+      "version": "3.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "json-schema-resolver-3.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "json-schema-resolver-3.0.0/package_LICENSE",
+          "bytes": 1072,
+          "sha256": "dfc6eb4df78850d3a5d38be7d10c7a997f2a95d09db91cfac2e77e51e4f8062c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Eomm/json-schema-resolver.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/json-schema-resolver/-/json-schema-resolver-3.0.0.tgz",
+      "archiveSha256": "1a41712e118bf3ad9ab041c46ebc7f63a249e2e16dabb4dd37db10c4255830ea",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "json-schema-traverse-1.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "json-schema-traverse-1.0.0/package_LICENSE",
+          "bytes": 1074,
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/epoberezkin/json-schema-traverse.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz",
+      "archiveSha256": "023222622df29fc274bde5d3590e47aa1d4a8e3c1d6e2aba029948ed79799b21",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "jwa",
+      "version": "2.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "jwa-2.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "jwa-2.0.1/package_LICENSE",
+          "bytes": 1068,
+          "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/brianloveswords/node-jwa.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz",
+      "archiveSha256": "c8bc0cf9fbbdc9d2f1b6f3f97ab9c1f70130eec6b153f29fd69baa5a6aa8341d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "jws",
+      "version": "4.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "jws-4.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "jws-4.0.1/package_LICENSE",
+          "bytes": 1068,
+          "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/brianloveswords/node-jws.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/jws/-/jws-4.0.1.tgz",
+      "archiveSha256": "ed3a5fb027f8ce1006c8e30a37e88e7cd49824d4873efca8765304b20fe92e12",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "light-my-request",
+      "version": "6.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "light-my-request-6.6.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "light-my-request-6.6.0/package_LICENSE",
+          "bytes": 1778,
+          "sha256": "c59ffead4ccbc72ddc3258c23d608bc6f10cea5241038ca8d39cdd7d7e7667c9"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/fastify/light-my-request.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/light-my-request/-/light-my-request-6.6.0.tgz",
+      "archiveSha256": "16270b0b82c7ffff1c1c364bfa161c23ac155aed98d4b09a140e0d80c8789930",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "linkedom",
+      "version": "0.18.12",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "linkedom-0.18.12",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "linkedom-0.18.12/package_LICENSE",
+          "bytes": 765,
+          "sha256": "dc6d4961d8b6ee747231582ae9c53ce1d66bf76bc9f5a28f554c0e97210953bf"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/WebReflection/linkedom.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/linkedom/-/linkedom-0.18.12.tgz",
+      "archiveSha256": "b15cc6324234cd73785619b01a86fd7ada68277f2ec0c571dc0de94d477f750d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "lovely-mermaid",
+      "version": "0.3.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "lovely-mermaid-0.3.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "lovely-mermaid-0.3.3/package_LICENSE",
+          "bytes": 11418,
+          "sha256": "d7aefc12620699f8cebff08097f5ec76b984d1ab19d4f5f10608b916fa62ba2f"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/xl0/lovely-mermaid.git",
+        "type": "git",
+        "directory": "packages/lovely-mermaid"
+      },
+      "source": "https://registry.npmjs.org/lovely-mermaid/-/lovely-mermaid-0.3.3.tgz",
+      "archiveSha256": "b9426cfb1cb7625a5e5ba29d625a39bf786ef424d5d398372b3e623497a802d3",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "marked",
+      "version": "18.0.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "marked-18.0.11",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "marked-18.0.11/package_LICENSE",
+          "bytes": 2942,
+          "sha256": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/markedjs/marked.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/marked/-/marked-18.0.11.tgz",
+      "archiveSha256": "cef55476c7551e73e1a89118fa69fee9f7eef9960e9c774ad266e22ee966b994",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "mime",
+      "version": "3.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "mime-3.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "mime-3.0.0/package_LICENSE",
+          "bytes": 1098,
+          "sha256": "8f2658c03422c408b2b2ce4d151decc3b1a6fd3d86e5ca9433777bccdcdf75a2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/broofa/mime.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/mime/-/mime-3.0.0.tgz",
+      "archiveSha256": "1634d866d08d3aff0b6a5a89d0d794cd54489fd68fc60159ef98385c429f7f54",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ms-2.1.3",
+      "notices": [
+        {
+          "path": "package/license.md",
+          "file": "ms-2.1.3/package_license.md",
+          "bytes": 1079,
+          "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/vercel/ms.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "archiveSha256": "f6616e15e530ed552f9daa2d3ce71963947c6bc7c98c9b64fd3e673fd02622c6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "node-domexception-1.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "node-domexception-1.0.0/package_LICENSE",
+          "bytes": 1071,
+          "sha256": "8ec1386f7f078b0c7cd25341cd80f332df902371cda9f40c10ec2b4007b420b7"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/jimmywarting/node-domexception.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz",
+      "archiveSha256": "eba234134890897807b85c2bc67cd32d0242eb9be1d1c62513797fdaab60c971",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "node-fetch",
+      "version": "3.3.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "node-fetch-3.3.2",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "node-fetch-3.3.2/package_LICENSE.md",
+          "bytes": 1090,
+          "sha256": "3e2c11dcf3f17ab585baab8faba54772d7872f1c6e026022acd4b4006665efb0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/node-fetch/node-fetch.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz",
+      "archiveSha256": "615af90e363f8f276b4b54f8e6c163cf3686dce1d8867dd7e52cbed4d38d2dab",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "node-pty",
+      "version": "1.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "node-pty-1.1.0",
+      "notices": [
+        {
+          "path": "package/deps/winpty/LICENSE",
+          "file": "node-pty-1.1.0/package_deps_winpty_LICENSE",
+          "bytes": 1085,
+          "sha256": "c39e428064b4f3e4fe81a975bf0fd3b845922b431bc4d9a7ffc8bfb091981836"
+        },
+        {
+          "path": "package/LICENSE",
+          "file": "node-pty-1.1.0/package_LICENSE",
+          "bytes": 3326,
+          "sha256": "a3d60eaf32d2fb09c9d82ef39f14bd6e2c0f3ca7de30daa827486c0d6f8b6e9f"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/microsoft/node-pty.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/node-pty/-/node-pty-1.1.0.tgz",
+      "archiveSha256": "c7517f19083ddcb05f276904680eb2b11a6b5ecab778b8e4e5685a6d645b3f60",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "nth-check",
+      "version": "2.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "nth-check-2.1.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "nth-check-2.1.1/package_LICENSE",
+          "bytes": 1260,
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "repository": {
+        "url": "git+https://github.com/fb55/nth-check.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz",
+      "archiveSha256": "45dc0a2bc34205656c0fbe8374c725c04b71b40e739b74c9fc763480c8063642",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "omggif",
+      "version": "1.0.10",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "omggif-1.0.10",
+      "notices": [
+        {
+          "file": "npm/omggif-1.0.10/PUBLISHED-README-LICENSE.txt",
+          "source": "https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz#package/README",
+          "bytes": 1172,
+          "sha256": "fc7d762e0ebf8720d0a03cf00058aaa3a198347e9651be2f50a25e3b3ec13985",
+          "kind": "upstream-original-notice"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/deanm/omggif.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz",
+      "archiveSha256": "576d726ddedd2c546750707e01cd247752027aa9250a6066e32047aa3d25287e",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "on-exit-leak-free",
+      "version": "2.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "on-exit-leak-free-2.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "on-exit-leak-free-2.1.2/package_LICENSE",
+          "bytes": 1071,
+          "sha256": "47404ffc18f1267832bc0623857871de5a3a93ebb19693f5e1b963af91fab54b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/mcollina/on-exit-or-gc.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-2.1.2.tgz",
+      "archiveSha256": "1ed10cfc6a8a8807b1c7b7eae520dbd15a104d5d0256202f8b08e1ec56cda1a8",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "openai",
+      "version": "6.34.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "openai-6.34.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "openai-6.34.0/package_LICENSE",
+          "bytes": 11336,
+          "sha256": "636eb7d79da9bb6d515a4b3fd417aa26679eb3cf16396ddab4bc55fa74e616e4"
+        },
+        {
+          "path": "package/src/_vendor/zod-to-json-schema/LICENSE",
+          "file": "openai-6.34.0/package_src__vendor_zod-to-json-schema_LICENSE",
+          "bytes": 746,
+          "sha256": "7beaa85b57d7211f6684af6c1d97e6d9ef7ec1851f779152043a47a8700306a9"
+        },
+        {
+          "path": "package/src/internal/qs/LICENSE.md",
+          "file": "openai-6.34.0/package_src_internal_qs_LICENSE.md",
+          "bytes": 1588,
+          "sha256": "d8c77eaffed7f1f874b97f66ee47a557ae24fd59bae8ae14f9b1b84f26a94d2f"
+        }
+      ],
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/openai/openai-node.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/openai/-/openai-6.34.0.tgz",
+      "archiveSha256": "9ffc940a2fdc15cc8e21d2bd0ef11af29c67eab69b610eb6c9fc83131839a5bf",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "p-retry",
+      "version": "4.6.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "p-retry-4.6.2",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "p-retry-4.6.2/package_license",
+          "bytes": 1109,
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/p-retry.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/p-retry/-/p-retry-4.6.2.tgz",
+      "archiveSha256": "21112bb484de3120e9e85f1ebe6a66125ecfda48072ae48b0d202693337fb558",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pako",
+      "version": "1.0.11",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pako-1.0.11",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pako-1.0.11/package_LICENSE",
+          "bytes": 1104,
+          "sha256": "a04665b3b2de56c66730c1f720f528175739e4104f79073614aa611da1e85539"
+        }
+      ],
+      "license": "(MIT AND Zlib)",
+      "repository": {
+        "url": "git+https://github.com/nodeca/pako.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz",
+      "archiveSha256": "0d4028dc0352a740c30cbfd772917f2744986d42bfa0b06ec7642bffe7ad3941",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse-bmfont-ascii",
+      "version": "1.0.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse-bmfont-ascii-1.0.6",
+      "notices": [
+        {
+          "file": "npm/parse-bmfont-ascii-1.0.6/UPSTREAM-FIXED-LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/mattdesl/parse-bmfont-ascii/5f22b037ae7460f629dd681db23cd9b543a76b06/LICENSE.md",
+          "bytes": 1083,
+          "sha256": "59c38e93a395817bc9d674d868af7c062fcea8b37468af8b3f6f075133eb1756",
+          "kind": "upstream-original-notice"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/mattdesl/parse-bmfont-ascii.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz",
+      "archiveSha256": "ae74c527b4ff071a72ee6762c352c81d9603c2333c82b8b7253d8a74e3099143",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse-bmfont-binary",
+      "version": "1.0.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse-bmfont-binary-1.0.6",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "parse-bmfont-binary-1.0.6/package_LICENSE.md",
+          "bytes": 1071,
+          "sha256": "fb153e8eaf70c10aa169bc3d7401946a9d51163cafaca23458cea8e67de972f4"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/Jam3/parse-bmfont-binary.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse-bmfont-binary/-/parse-bmfont-binary-1.0.6.tgz",
+      "archiveSha256": "21b9c8b275d61e6dca71d4b1a3c46f8e72ad8ae51b5b4119142c3c2dc3833e97",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse-bmfont-xml",
+      "version": "1.1.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse-bmfont-xml-1.1.6",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "parse-bmfont-xml-1.1.6/package_LICENSE.md",
+          "bytes": 1083,
+          "sha256": "59c38e93a395817bc9d674d868af7c062fcea8b37468af8b3f6f075133eb1756"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/mattdesl/parse-bmfont-xml.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse-bmfont-xml/-/parse-bmfont-xml-1.1.6.tgz",
+      "archiveSha256": "9e76d9b383c80b513a0aa017750430e840013ee918d33f591f60873ba15ce7cb",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse5-htmlparser2-tree-adapter",
+      "version": "6.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse5-htmlparser2-tree-adapter-6.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "parse5-htmlparser2-tree-adapter-6.0.1/package_LICENSE",
+          "bytes": 1109,
+          "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/inikulin/parse5.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-6.0.1.tgz",
+      "archiveSha256": "e70792f04e76bb4a14ad6b1215c63916af1da0a4d8c87181d529a5b4719cf362",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse5",
+      "version": "5.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse5-5.1.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "parse5-5.1.1/package_LICENSE",
+          "bytes": 1109,
+          "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/inikulin/parse5.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse5/-/parse5-5.1.1.tgz",
+      "archiveSha256": "92727eff70b78a7ecc5ee9d88a76d13f746f98eea2f81e945e69d8e32d863e75",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "parse5",
+      "version": "6.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "parse5-6.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "parse5-6.0.1/package_LICENSE",
+          "bytes": 1109,
+          "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/inikulin/parse5.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/parse5/-/parse5-6.0.1.tgz",
+      "archiveSha256": "5a562a309cadd9e3a80c97d716f56f4ff7b30bc256c557fc733bdd68adf696f4",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pathe",
+      "version": "2.0.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pathe-2.0.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pathe-2.0.3/package_LICENSE",
+          "bytes": 3355,
+          "sha256": "52e92576851154bad7737e90cc72818936f43665cb0e3f7428ed8edc8cc5709b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/unjs/pathe.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz",
+      "archiveSha256": "6e3b73bc5dbb7f8a108ff5d8459b07da04062e822c662339416525510696df36",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pend",
+      "version": "1.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pend-1.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pend-1.2.0/package_LICENSE",
+          "bytes": 1082,
+          "sha256": "7e64acffcb0d20d33f5a86949ffd4a99ae045b10c7332a9c3a58635876c16880"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/andrewrk/node-pend.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz",
+      "archiveSha256": "a12f279b25a9df710b52a9892bad00bdeeb862a9b5d1e4f4db77131129436d7f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "picomatch-4.0.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "picomatch-4.0.4/package_LICENSE",
+          "bytes": 1091,
+          "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/micromatch/picomatch.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+      "archiveSha256": "515b5ab666558ed9a117483a310892aede54a68dd78f2d8db6604513e578571c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pino-std-serializers",
+      "version": "7.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pino-std-serializers-7.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pino-std-serializers-7.1.0/package_LICENSE",
+          "bytes": 1084,
+          "sha256": "6206673d24786f09656f7a480b7c50af289e9690963aaa135af5b626de5250df"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/pinojs/pino-std-serializers.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-7.1.0.tgz",
+      "archiveSha256": "c8ee1578a9fd84a929924515d7572eaeb4a3944d38953eaf8eb3dbd165020763",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pino",
+      "version": "9.14.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pino-9.14.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pino-9.14.0/package_LICENSE",
+          "bytes": 1209,
+          "sha256": "d4eb00c3ef2fa54cdf05d167b15e994bc67226a7998e090e22a0bc8b16223a6c"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/pinojs/pino.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pino/-/pino-9.14.0.tgz",
+      "archiveSha256": "e3cf66fc547c957aad15864cdf980dd14d8c9a1f5a363134ffe25c599a769508",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pixelmatch",
+      "version": "5.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pixelmatch-5.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pixelmatch-5.3.0/package_LICENSE",
+          "bytes": 738,
+          "sha256": "c6a01684eb9061a00589d483e9cf9ea5a82b3e8270f9992501ceb79f32753fb5"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/mapbox/pixelmatch.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pixelmatch/-/pixelmatch-5.3.0.tgz",
+      "archiveSha256": "f13d3afadf14b069e8db17161ecc544697540e04b9a3e2480cafee399a90c454",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pkce-challenge-5.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pkce-challenge-5.0.1/package_LICENSE",
+          "bytes": 1057,
+          "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/crouchcd/pkce-challenge.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pkce-challenge/-/pkce-challenge-5.0.1.tgz",
+      "archiveSha256": "d1fcbbae5bc05562d13de7c520c2951699e8262a8317fa6c8bbcd8dcff3bea70",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pngjs",
+      "version": "5.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pngjs-5.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pngjs-5.0.0/package_LICENSE",
+          "bytes": 1151,
+          "sha256": "176b07a18c0bb3836aaeb61088fd0bf11a38f66e6f15e3fbda85faa225250d6e"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/lukeapage/pngjs.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pngjs/-/pngjs-5.0.0.tgz",
+      "archiveSha256": "4d960bbbe078022d7a36822e2874f884c7410ead111f3603d69d70fc7af36f20",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "pngjs",
+      "version": "7.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "pngjs-7.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "pngjs-7.0.0/package_LICENSE",
+          "bytes": 1150,
+          "sha256": "be75ef59c5cf59715588a17a82dff7dd3e83c4dba3c458676bb9311e05fbedc5"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/pngjs/pngjs.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pngjs/-/pngjs-7.0.0.tgz",
+      "archiveSha256": "c4b71873d48a692dd5eeb1dcb62185c7aafe40f2180c7cc7f30ec71e89a080be",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "process-warning",
+      "version": "4.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "process-warning-4.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "process-warning-4.0.1/package_LICENSE",
+          "bytes": 1059,
+          "sha256": "d9726abc9eff9496f3ecb5302e70756f310db24a01c7ddd20f541143bf5576ad"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/process-warning.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/process-warning/-/process-warning-4.0.1.tgz",
+      "archiveSha256": "828285e437d503f1e315053aa6bff99e859b5f352878fe7eba171fe824696ca6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "process-warning",
+      "version": "5.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "process-warning-5.0.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "process-warning-5.0.0/package_LICENSE",
+          "bytes": 1059,
+          "sha256": "d9726abc9eff9496f3ecb5302e70756f310db24a01c7ddd20f541143bf5576ad"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/fastify/process-warning.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/process-warning/-/process-warning-5.0.0.tgz",
+      "archiveSha256": "9220188a409e3593eb8fb481d2f4714edfb8514aedfb8711a713fc2338fc6b92",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "proper-lockfile",
+      "version": "4.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "proper-lockfile-4.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "proper-lockfile-4.1.2/package_LICENSE",
+          "bytes": 1105,
+          "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+ssh://git@github.com/moxystudio/node-proper-lockfile.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/proper-lockfile/-/proper-lockfile-4.1.2.tgz",
+      "archiveSha256": "fd78914ba57caecbedbb928fb369510b01fa32e1c0fbca7b63ca16623a7a8968",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "qrcode",
+      "version": "1.5.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "qrcode-1.5.4",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "qrcode-1.5.4/package_license",
+          "bytes": 1076,
+          "sha256": "8df47c6ad9ac2c41eb9b2a72def9908959da0ede8dadd56c7b249c1bdb0c5ce6"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/soldair/node-qrcode.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz",
+      "archiveSha256": "0c7274f0c299f39c2fddf54a2e0039b785977b0173c02d0b3f65fad68923e2b0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "quick-format-unescaped",
+      "version": "4.0.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "quick-format-unescaped-4.0.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "quick-format-unescaped-4.0.4/package_LICENSE",
+          "bytes": 1091,
+          "sha256": "5ac141bfc70bec8f40838502436bfcb85e3f4c24377e41b9ddef07bdd6aa51bc"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/davidmarkclements/quick-format.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz",
+      "archiveSha256": "acba54ec5587ffddfb0811b693aad4844366772f01511291302d3380d431a485",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "radashi",
+      "version": "12.9.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "radashi-12.9.1",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "radashi-12.9.1/package_LICENSE.md",
+          "bytes": 1096,
+          "sha256": "e3f18e7d6b946c8fd473197e364bbe6d97cc00f133319f24c40bd7d32bff1aae"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/radashi-org/radashi.git"
+      },
+      "source": "https://registry.npmjs.org/radashi/-/radashi-12.9.1.tgz",
+      "archiveSha256": "32d6b63e22a41f37d65b8c9da512a115e9f1026025058cf5006ab5b2a3c26e79",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "readdirp",
+      "version": "4.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "readdirp-4.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "readdirp-4.1.2/package_LICENSE",
+          "bytes": 1114,
+          "sha256": "dffec71d93f273d2af7b54c6c7e7e70b3289c632ec0d7253210ec21ac336d5ac"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/paulmillr/readdirp.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz",
+      "archiveSha256": "766ea2ba6314aefe6b939c9bbe3999cc473286578aeb1c3805338c2dbd655f5a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ret",
+      "version": "0.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ret-0.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ret-0.5.0/package_LICENSE",
+          "bytes": 1065,
+          "sha256": "bfc2c678db20d806b3787956f607a1509da5fca45b4d40a97c671cbee737159d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/fent/ret.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ret/-/ret-0.5.0.tgz",
+      "archiveSha256": "4a990f0113ddcbc04d77b279730659ccfe5e5d700d014fc584bb09a9f50dff61",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "retry",
+      "version": "0.12.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "retry-0.12.0",
+      "notices": [
+        {
+          "path": "package/License",
+          "file": "retry-0.12.0/package_License",
+          "bytes": 1139,
+          "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/tim-kos/node-retry.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/retry/-/retry-0.12.0.tgz",
+      "archiveSha256": "df61c6d197aadc6ab17b489103533bbb0223413558d4222411c162155c30b428",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "retry-0.13.1",
+      "notices": [
+        {
+          "path": "package/License",
+          "file": "retry-0.13.1/package_License",
+          "bytes": 1139,
+          "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/tim-kos/node-retry.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/retry/-/retry-0.13.1.tgz",
+      "archiveSha256": "7521d8445e845475e888ccb7af473c4afb17aabafefe35a23371a8a8c79b8084",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "reusify",
+      "version": "1.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "reusify-1.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "reusify-1.1.0/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "93a1506953b08ad4874e1cc0971a1d2ac387ca510da91e4d05e460a6c4966fa3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/mcollina/reusify.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz",
+      "archiveSha256": "2460004412100eea8e96b98f14d3dfb4e22a6628654e5431d14f974c6201ca18",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "rfdc",
+      "version": "1.4.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "rfdc-1.4.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "rfdc-1.4.1/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "1ce941682a96c7b898ecd125d0f2e22319758ea6f3adbf498a65d649b0f3f7dd"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/davidmarkclements/rfdc.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/rfdc/-/rfdc-1.4.1.tgz",
+      "archiveSha256": "559af1871d927b198ddfa472da35839ba31b01fdf4645206aae279cab91d566a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "safe-buffer-5.2.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "safe-buffer-5.2.1/package_LICENSE",
+          "bytes": 1081,
+          "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/feross/safe-buffer.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "archiveSha256": "5d181804516c4a693a384272a7bd0e42d17e0d4b301ccfbe408669ccafdcb3e8",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "safe-regex2",
+      "version": "5.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "safe-regex2-5.1.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "safe-regex2-5.1.1/package_LICENSE",
+          "bytes": 1123,
+          "sha256": "3871c31d0cc373951d836b8bb97275a2227f8af7464df7c51bc3f98769b87653"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/fastify/safe-regex2.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/safe-regex2/-/safe-regex2-5.1.1.tgz",
+      "archiveSha256": "a963f5da58a4cb231a7647304fdcb47617563ad969f72fd9bbc681dbac9322e1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "safe-stable-stringify",
+      "version": "2.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "safe-stable-stringify-2.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "safe-stable-stringify-2.5.0/package_LICENSE",
+          "bytes": 1079,
+          "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/BridgeAR/safe-stable-stringify.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz",
+      "archiveSha256": "acf5b4e0f8e5f0bfd9479eae41a6dd90e175d89eecd98fe1c834eab602073e91",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "sax",
+      "version": "1.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "sax-1.6.0",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "sax-1.6.0/package_LICENSE.md",
+          "bytes": 1552,
+          "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+        }
+      ],
+      "license": "BlueOak-1.0.0",
+      "repository": {
+        "url": "git+ssh://git@github.com/isaacs/sax-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/sax/-/sax-1.6.0.tgz",
+      "archiveSha256": "d424acd207642df18c2d814411907b9a108ff1dfca341cfddf523bd57af699f4",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "secure-json-parse",
+      "version": "4.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "secure-json-parse-4.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "secure-json-parse-4.1.0/package_LICENSE",
+          "bytes": 1807,
+          "sha256": "d490035c46547ddc88330bc0b42fcd89eabfd66435c4291352d1b9b68d62c729"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/fastify/secure-json-parse.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/secure-json-parse/-/secure-json-parse-4.1.0.tgz",
+      "archiveSha256": "c60942c81cbd56b695c8a0ddb1558933d5f20c63b8176ad594717fe5aaf842eb",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "semver",
+      "version": "7.7.4",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "semver-7.7.4",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "semver-7.7.4/package_LICENSE",
+          "bytes": 765,
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/npm/node-semver.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/semver/-/semver-7.7.4.tgz",
+      "archiveSha256": "09267ad08cfe300e6790c9b8dc3db079103b4700cc465a67779b15662fe9418c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "set-cookie-parser",
+      "version": "2.7.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "set-cookie-parser-2.7.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "set-cookie-parser-2.7.2/package_LICENSE",
+          "bytes": 1126,
+          "sha256": "c5c6c5183a789d122f267c405f685037efb87e27fcde28ab1dd7378a2d2f5962"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/nfriedly/set-cookie-parser.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz",
+      "archiveSha256": "1fdf9181ca54f9cdbd4d6bcfc59d28d9f0495fc2743029169d8213987210596c",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "signal-exit-3.0.7",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "signal-exit-3.0.7/package_LICENSE.txt",
+          "bytes": 748,
+          "sha256": "e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/tapjs/signal-exit.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz",
+      "archiveSha256": "439623fa6aab91600615ec757eaa137fcab40d3b35dda38df7444c15678f20a8",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "simple-xml-to-json",
+      "version": "1.2.7",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "simple-xml-to-json-1.2.7",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "simple-xml-to-json-1.2.7/package_license",
+          "bytes": 1065,
+          "sha256": "2a26ecc6ad02d385a1233195b397847f50106cf275cd72592e801cda0733f8e2"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/nirgit/simple-xml-to-json.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/simple-xml-to-json/-/simple-xml-to-json-1.2.7.tgz",
+      "archiveSha256": "a49e38c7e60cb0303114ea49445e8304d121b73807a82c8d747d1444528e548b",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "smart-buffer",
+      "version": "4.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "smart-buffer-4.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "smart-buffer-4.2.0/package_LICENSE",
+          "bytes": 1087,
+          "sha256": "c46e2c333e1c9e6fcfd130cf91b8e54bf67b60fabbc04996f7e199b990353ff3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/JoshGlazebrook/smart-buffer.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz",
+      "archiveSha256": "3d9815e4cbd1beb947ac6bc8e33eb7d4d380e781fff696c2c9b55096af6450a1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "smol-toml",
+      "version": "1.6.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "smol-toml-1.6.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "smol-toml-1.6.1/package_LICENSE",
+          "bytes": 1499,
+          "sha256": "fa5659948374d4f555594f47f6da073b40dc503e921aeeece30df4362b3051a5"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/squirrelchat/smol-toml.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/smol-toml/-/smol-toml-1.6.1.tgz",
+      "archiveSha256": "5e51dd5039cee5ff40166b44f9e5fbc72a9014ab4bab102a27af62632fd07b45",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "socks",
+      "version": "2.8.9",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "socks-2.8.9",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "socks-2.8.9/package_LICENSE",
+          "bytes": 1082,
+          "sha256": "4f4f28866154c8d758241a64296e8790d45d7d912ff7b029930778c06d8f2a72"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/JoshGlazebrook/socks.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/socks/-/socks-2.8.9.tgz",
+      "archiveSha256": "b8f5f4ab3f6a117afd04cd5be4277670074e50b02319ee806a321507e711d51d",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "sonic-boom",
+      "version": "4.2.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "sonic-boom-4.2.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "sonic-boom-4.2.1/package_LICENSE",
+          "bytes": 1071,
+          "sha256": "db5c3795cb080810fed0380bf4d6adef3f81579e8ae3a867d3c2abab2329db9d"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/pinojs/sonic-boom.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/sonic-boom/-/sonic-boom-4.2.1.tgz",
+      "archiveSha256": "bf128eca0c2a2ed9eb9f598a69eb374df08f3886dd9c506c5129935487166b87",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "standardwebhooks",
+      "version": "1.0.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "standardwebhooks-1.0.0",
+      "notices": [
+        {
+          "file": "npm/standardwebhooks-1.0.0/UPSTREAM-FIXED-LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/standard-webhooks/standard-webhooks/929bf0c1928b188287eaf88d0a9f0a4e87df6499/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "kind": "upstream-original-notice"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/standard-webhooks/standard-webhooks.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/standardwebhooks/-/standardwebhooks-1.0.0.tgz",
+      "archiveSha256": "935d8e1b8b303dd39f4c88df6f00579bec32a597bd0f193a9db7545e9610dbbd",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "strtok3",
+      "version": "10.3.5",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "strtok3-10.3.5",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "strtok3-10.3.5/package_LICENSE.txt",
+          "bytes": 1084,
+          "sha256": "c77d564d48f13e7ece47d5dcc57102810744828d5f5af5826808a0320de3bb76"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Borewit/strtok3.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/strtok3/-/strtok3-10.3.5.tgz",
+      "archiveSha256": "58595fe65b2340514ea1c74dbae2bc4d8e5049c4d060cc38eed745da48fa7c96",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "supports-color",
+      "version": "7.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "supports-color-7.2.0",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "supports-color-7.2.0/package_license",
+          "bytes": 1109,
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/chalk/supports-color.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+      "archiveSha256": "f16acafd1634624e60c24a5538004c4e168c82607f10dbe28395e9df3e7d5e4a",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "supports-color",
+      "version": "8.1.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "supports-color-8.1.1",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "supports-color-8.1.1/package_license",
+          "bytes": 1117,
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/chalk/supports-color.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz",
+      "archiveSha256": "ea69d9b5801e109932f9f12b5499c06de3fde936119a21c5941b2759d4364fb0",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "tar",
+      "version": "7.5.13",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "tar-7.5.13",
+      "notices": [
+        {
+          "path": "package/LICENSE.md",
+          "file": "tar-7.5.13/package_LICENSE.md",
+          "bytes": 1552,
+          "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+        }
+      ],
+      "license": "BlueOak-1.0.0",
+      "repository": {
+        "url": "git+https://github.com/isaacs/node-tar.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/tar/-/tar-7.5.13.tgz",
+      "archiveSha256": "95765dfeca9a8a421e2f217176d871b2a67d5fa4dc2efb4fe9ac7d2346fc2af6",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "thread-stream",
+      "version": "3.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "thread-stream-3.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "thread-stream-3.2.0/package_LICENSE",
+          "bytes": 1071,
+          "sha256": "47404ffc18f1267832bc0623857871de5a3a93ebb19693f5e1b963af91fab54b"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/mcollina/thread-stream.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/thread-stream/-/thread-stream-3.2.0.tgz",
+      "archiveSha256": "99ec7b0a30060ca693bebe16c780642ecd2b4b92b1e7ab89ef0cd8014f78ecf1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "tinycolor2",
+      "version": "1.6.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "tinycolor2-1.6.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "tinycolor2-1.6.0/package_LICENSE",
+          "bytes": 1081,
+          "sha256": "c6cb470a9ba0a50d57611aeec1f31da609c5aefdbee8eac7f289bcb0e30625fa"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/bgrins/TinyColor.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.6.0.tgz",
+      "archiveSha256": "1fd8164c4b0e1bad09bf2252705fbcf6789dcce7c121aa52b515dd6438eb635b",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "toad-cache",
+      "version": "3.7.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "toad-cache-3.7.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "toad-cache-3.7.1/package_LICENSE",
+          "bytes": 1067,
+          "sha256": "644304c533dee96438937c0bdcbb49897d80fd8df3be4573f3c57b9c2ca22587"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/kibertoad/toad-cache.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/toad-cache/-/toad-cache-3.7.1.tgz",
+      "archiveSha256": "6cc867c94ab313ae788e18f877f1f93e7f7f02d573e11b20f843203585b40932",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "token-types",
+      "version": "6.1.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "token-types-6.1.2",
+      "notices": [
+        {
+          "path": "package/LICENSE.txt",
+          "file": "token-types-6.1.2/package_LICENSE.txt",
+          "bytes": 1082,
+          "sha256": "eb0bff8faaba4581e0f09c962e0f795f1f8810191c9d616f3f66f36be4b3a5dc"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Borewit/token-types.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/token-types/-/token-types-6.1.2.tgz",
+      "archiveSha256": "eb4820714d28f6dad949d392e7b74ec919ae3b120421240a032027bf2bd25f41",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "uhyphen",
+      "version": "0.2.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "uhyphen-0.2.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "uhyphen-0.2.0/package_LICENSE",
+          "bytes": 765,
+          "sha256": "2b0748436e16684ec912b82f153343c6063ae7a7f24fac680058ca06bf02f2a7"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/WebReflection/uhyphen.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/uhyphen/-/uhyphen-0.2.0.tgz",
+      "archiveSha256": "f3fb42099ea7a0efa2753b3e770fa0d505714e1c7d75fc1fa6c5aac9ba1baad1",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "uint8array-extras",
+      "version": "1.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "uint8array-extras-1.5.0",
+      "notices": [
+        {
+          "path": "package/license",
+          "file": "uint8array-extras-1.5.0/package_license",
+          "bytes": 1117,
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/uint8array-extras.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/uint8array-extras/-/uint8array-extras-1.5.0.tgz",
+      "archiveSha256": "65834dc9ce7ecceff4334a14796c85960cbf665d09364698bf3196ceed04d677",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ulid",
+      "version": "3.0.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ulid-3.0.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ulid-3.0.2/package_LICENSE",
+          "bytes": 1083,
+          "sha256": "e7e94f2db9f81458817ca8eb7420d63ec607272eb4259b39c420339c76414dfe"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/ulid/javascript.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ulid/-/ulid-3.0.2.tgz",
+      "archiveSha256": "ec791e4ebbb2a3ec98b529dc92ae7face1be43d032505b77b15cf078cd1f03cf",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "undici",
+      "version": "7.27.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "undici-7.27.1",
+      "notices": [
+        {
+          "path": "package/lib/web/fetch/LICENSE",
+          "file": "undici-7.27.1/package_lib_web_fetch_LICENSE",
+          "bytes": 1071,
+          "sha256": "a21d6c8d3fc631198b97e57584697f7f9c37805c71c6cf9a12e4442b40394b88"
+        },
+        {
+          "path": "package/LICENSE",
+          "file": "undici-7.27.1/package_LICENSE",
+          "bytes": 1090,
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/nodejs/undici.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/undici/-/undici-7.27.1.tgz",
+      "archiveSha256": "6ba3e2117f2f94e3e46a391c48ee8877ae5fe0332e994ef0111647e021d0678f",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "utif2",
+      "version": "4.1.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "utif2-4.1.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "utif2-4.1.0/package_LICENSE",
+          "bytes": 1065,
+          "sha256": "c1fb8861eca211bf5aea574358aba7039396c0c1824c2a1477cc126d398efd89"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/photopea/UTIF.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/utif2/-/utif2-4.1.0.tgz",
+      "archiveSha256": "4156ccd1164f1418af3632b40f0e7992d47a9a622956e85b00b8c605065e8e35",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "3.3.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "web-streams-polyfill-3.3.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "web-streams-polyfill-3.3.3/package_LICENSE",
+          "bytes": 1120,
+          "sha256": "81008a3fb78f69f3c4a72a9e005c8582342ab62864371b3ab8e1b6af9041e080"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/MattiasBuelens/web-streams-polyfill.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz",
+      "archiveSha256": "1ee138d3dc0263ead35c40604da75d7d56c4fa0ef32dc2e3a7fbac10480ebb54",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "ws",
+      "version": "8.20.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "ws-8.20.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "ws-8.20.0/package_LICENSE",
+          "bytes": 1183,
+          "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/websockets/ws.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/ws/-/ws-8.20.0.tgz",
+      "archiveSha256": "bc7bd97fb06c7ab1c8f9e7150f39d481813f1b81511f33fa93bc9707a4fd3a69",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "xml2js",
+      "version": "0.5.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "xml2js-0.5.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "xml2js-0.5.0/package_LICENSE",
+          "bytes": 1079,
+          "sha256": "c51452ef1dfd5606c9fe266930fa6bf7e8a534d52973b6475df5bf212cad5b0a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/Leonidas-from-XIV/node-xml2js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz",
+      "archiveSha256": "a4271e30f64b25b9dd10d8493ca200db842cb63325756cbb6ca4e94f9996d431",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "xmlbuilder",
+      "version": "11.0.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "xmlbuilder-11.0.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "xmlbuilder-11.0.1/package_LICENSE",
+          "bytes": 1101,
+          "sha256": "e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git://github.com/oozcitak/xmlbuilder-js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz",
+      "archiveSha256": "8af7744b545bc3c8883589dafd5536b06194edb6ea667d5fd7f2cfee4c121c94",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "xstate",
+      "version": "5.32.5",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "xstate-5.32.5",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "xstate-5.32.5/package_LICENSE",
+          "bytes": 1083,
+          "sha256": "542d926d7bbb099785e322d1d5574c539d51942e52ec8adce2be4629ba81fc7f"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/statelyai/xstate.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/xstate/-/xstate-5.32.5.tgz",
+      "archiveSha256": "7b12ff04169e5754c060d54ed76bb250f6d9549215033dcd449d3aeda7c26026",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "yaml",
+      "version": "2.8.3",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "yaml-2.8.3",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "yaml-2.8.3/package_LICENSE",
+          "bytes": 738,
+          "sha256": "5bba27375d93e9119f76c1015f7672cf9ad5f70952296e0842fb2243d6376869"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/eemeli/yaml.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz",
+      "archiveSha256": "9539805d7447def2bed5c5b4acacc283362c5e80abc5d93472b2f35f0cbf85ad",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "yauzl",
+      "version": "3.3.0",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "yauzl-3.3.0",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "yauzl-3.3.0/package_LICENSE",
+          "bytes": 1077,
+          "sha256": "b303783d5eb7ca50b853ffa5f145e4e7998fab339831d848f507ca6cd970577a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/thejoshwolfe/yauzl.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/yauzl/-/yauzl-3.3.0.tgz",
+      "archiveSha256": "f1ec30242f27ecef4567fd61226cff85295922a2d1f987109f6d2c8b32245af2",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "yazl",
+      "version": "3.3.1",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "yazl-3.3.1",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "yazl-3.3.1/package_LICENSE",
+          "bytes": 1077,
+          "sha256": "b303783d5eb7ca50b853ffa5f145e4e7998fab339831d848f507ca6cd970577a"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/thejoshwolfe/yazl.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/yazl/-/yazl-3.3.1.tgz",
+      "archiveSha256": "24a97a443e47d83d9e2ea2bb4b99b7f91a8ba5a5b9e4b49ffdd2be9e0ca00e38",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "zod-to-json-schema",
+      "version": "3.25.2",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "zod-to-json-schema-3.25.2",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "zod-to-json-schema-3.25.2/package_LICENSE",
+          "bytes": 745,
+          "sha256": "80d3168ad2f70f6f5bb2ab22b23414707abf6f0a392034891481ae36a1a429d4"
+        }
+      ],
+      "license": "ISC",
+      "repository": {
+        "url": "git+https://github.com/StefanTerdell/zod-to-json-schema.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz",
+      "archiveSha256": "a4919ab5a32aff4fd6c119c9f187f0dd4b4c490d30c4c4fdaf7c5ff6f38d93f4",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "zod",
+      "version": "3.25.76",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "zod-3.25.76",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "zod-3.25.76/package_LICENSE",
+          "bytes": 1072,
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/colinhacks/zod.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/zod/-/zod-3.25.76.tgz",
+      "archiveSha256": "9e1f1a05f0dd0c1dab64ee91ceb9bf55cd44d35368c70edda80a2fdc70a88377",
+      "integrityVerified": true,
+      "closed": true
+    },
+    {
+      "name": "zod",
+      "version": "4.3.6",
+      "seenIn": [
+        "SEA/main.cjs"
+      ],
+      "slug": "zod-4.3.6",
+      "notices": [
+        {
+          "path": "package/LICENSE",
+          "file": "zod-4.3.6/package_LICENSE",
+          "bytes": 1072,
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+        }
+      ],
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/colinhacks/zod.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/zod/-/zod-4.3.6.tgz",
+      "archiveSha256": "29ee4d2418c0fb6ddc545c28c03ec80b701e345a3f779e50ae23cda0700b1682",
+      "integrityVerified": true,
+      "closed": true
+    }
+  ],
+  "complete": true
+}

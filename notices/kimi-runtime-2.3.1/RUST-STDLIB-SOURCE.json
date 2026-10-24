@@ -1,0 +1,9 @@
+{
+  "url": "https://static.rust-lang.org/dist/2026-04-16/rust-std-1.95.0-x86_64-pc-windows-msvc.tar.xz",
+  "sha256": "7c659bdc88646e7e1befa370881bd311be87b26f006933a28b40dcab2f7cc832",
+  "notices": [
+    "rust-std-1.95.0-x86_64-pc-windows-msvc/LICENSE-APACHE",
+    "rust-std-1.95.0-x86_64-pc-windows-msvc/COPYRIGHT",
+    "rust-std-1.95.0-x86_64-pc-windows-msvc/LICENSE-MIT"
+  ]
+}

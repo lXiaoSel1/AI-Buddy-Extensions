@@ -1,0 +1,11 @@
+{
+  "name": "ai-buddy-extensions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE.md",
+  "author": "lXiaoSel1",
+  "engines": {"node": ">=24"},
+  "scripts": {"build": "node scripts/build-kimi.mjs", "verify": "node scripts/verify-release.mjs"},
+  "devDependencies": {"esbuild": "0.28.2"}
+}

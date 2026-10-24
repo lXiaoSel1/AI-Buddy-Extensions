@@ -1,0 +1,25 @@
+import {build} from 'esbuild';
+import {mkdir,mkdtemp,readFile,writeFile,copyFile,cp,rm,rename} from 'node:fs/promises';
+import {resolve,join,relative,isAbsolute,basename} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+import {packagePlugin} from './package-plugin.mjs';
+const repo=resolve(fileURLToPath(new URL('..',import.meta.url))),args=Object.fromEntries(process.argv.slice(2).map(value=>value.replace(/^--/,'').split(/=(.*)/s).slice(0,2))),out=resolve(args.out??join(repo,'.artifacts','release'));
+const source=JSON.parse(await readFile(join(repo,'runtime-source.json'),'utf8')),binary=resolve(args['runtime-exe']??join(repo,'.runtime-cache','kimi.exe')),bytes=await readFile(binary),sha=value=>createHash('sha256').update(value).digest('hex');
+if(bytes.length!==source.binaryBytes||sha(bytes)!==source.binarySha256)throw Error('Original Kimi executable checksum mismatch');
+const audit=JSON.parse(await readFile(join(repo,'notices/kimi-runtime-2.3.1/AUDIT-RECEIPT.json'),'utf8'));if(!audit.noticeCoverageComplete)throw Error('Runtime notice preparation has unresolved items');
+await mkdir(out,{recursive:true});const work=await mkdtemp(join(out,'staging-')),engine=join(work,'engine'),runtime=join(work,'runtime'),base='https://github.com/lXiaoSel1/AI-Buddy-Extensions/releases/download/'+source.releaseTag+'/';
+try{
+ await mkdir(join(engine,'dist'),{recursive:true});await build({entryPoints:[join(repo,'sdk/plugins/kimi-engine/entry.mjs')],outfile:join(engine,'dist/entry.mjs'),bundle:true,platform:'node',target:'node24',format:'esm',legalComments:'eof',logLevel:'silent'});
+ await copyFile(join(repo,'LICENSE.md'),join(engine,'LICENSE.md'));await writeFile(join(engine,'NOTICE.txt'),'AI Buddy Kimi ACP adapter by lXiaoSel1. The separate Kimi runtime and bundled third-party components retain their original licenses. No credentials or model access are included.\n');
+ const engineTemplate=JSON.parse(await readFile(join(repo,'sdk/plugins/kimi-engine/manifest-template.json'),'utf8'));Object.assign(engineTemplate,{description:'Kimi ACP 工作引擎预览；需要含扩展中心/多源管理的 AI Buddy 1.9.2 内部候选。安装后由用户启用，不自动开始任务。',homepage:'https://github.com/lXiaoSel1/AI-Buddy-Extensions',repository:'https://github.com/lXiaoSel1/AI-Buddy-Extensions',feedbackUrl:'https://github.com/lXiaoSel1/AI-Buddy-Extensions/issues',dataSchemaVersion:1,compatibleDataVersions:[1]});
+ const engineManifest=join(work,'engine-template.json');await writeFile(engineManifest,JSON.stringify(engineTemplate));
+ await mkdir(join(runtime,'bin'),{recursive:true});await copyFile(binary,join(runtime,'bin/kimi.exe'));if(sha(await readFile(join(runtime,'bin/kimi.exe')))!==source.binarySha256)throw Error('Runtime copy changed');
+ await cp(join(repo,'notices/kimi-runtime-2.3.1'),join(runtime,'licenses'),{recursive:true,errorOnExist:true});await copyFile(join(runtime,'licenses/KIMI-MIT-LICENSE.txt'),join(runtime,'LICENSE.md'));
+ const runtimeTemplate={schemaVersion:1,id:'ai-buddy.kimi-runtime',name:'Kimi 2.3.1 Windows 运行引擎',description:'独立原生运行包预览；Kimi 官方 2.3.1 exe 原字节保留，含 Node、JS/native、字体及 codec 许可通知；安装不调用模型。',version:'1.0.0',nativeVersion:'2.3.1',kind:'runtime',appRange:'>=1.9.2 <2.0.0',apiRange:'^1.0.0',platform:'win32',arch:'x64',entry:'bin/kimi.exe',activationEvents:[],capabilities:[],dependencies:{},author:'Moonshot AI; package maintenance lXiaoSel1',license:'MIT (Kimi); bundled components retain their licenses in licenses/',category:'model-runtime',tags:['Kimi','ACP','原生运行包'],homepage:'https://github.com/MoonshotAI/kimi-code',repository:'https://github.com/MoonshotAI/kimi-code',feedbackUrl:'https://github.com/lXiaoSel1/AI-Buddy-Extensions/issues',dataSchemaVersion:1,compatibleDataVersions:[1]};
+ const runtimeManifest=join(work,'runtime-template.json');await writeFile(runtimeManifest,JSON.stringify(runtimeTemplate));
+ const results=[];for(const [name,manifest,files]of [['engine',engineManifest,engine],['runtime',runtimeManifest,runtime]]){const result=await packagePlugin({manifest,files,out:join(out,name),url:base+'ai-buddy.kimi-'+name+'-1.0.0.zip'});await rename(result.archive,join(out,basename(result.archive)));results.push({kind:name,...result,archive:basename(result.archive),entry:relative(out,result.entry).replaceAll('\\','/')});}
+ await writeFile(join(out,'SHA256SUMS.txt'),results.map(row=>row.sha256+'  '+row.archive).join('\n')+'\n');
+ const receipt={checkedAt:new Date().toISOString(),releaseTag:source.releaseTag,appRequirement:'AI Buddy 1.9.2 internal extension-center/multi-source candidate; existing public app 1.9.2 is not sufficient',originalBinarySha256:source.binarySha256,noticePreparation:audit,packages:results};await writeFile(join(out,'BUILD-RECEIPT.json'),JSON.stringify(receipt,null,2)+'\n');console.log(JSON.stringify({ok:true,out,packages:results},null,2));
+}catch(error){await writeFile(join(out,'BUILD-FAILURE.json'),JSON.stringify({at:new Date().toISOString(),message:error.message},null,2));throw error;}
+finally{const rel=relative(out,work);if(!rel||rel.startsWith('..')||isAbsolute(rel))throw Error('Unsafe owned staging cleanup');await rm(work,{recursive:true,force:true});}

@@ -1,0 +1,2 @@
+# Preserve upstream notice bytes and reproducible package input on every host.
+* -text

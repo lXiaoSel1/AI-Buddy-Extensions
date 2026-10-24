@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "example.empty-plugin",
+  "name": "空扩展示例（请改唯一 ID）",
+  "description": "最小生命周期模板；没有工具、模型或界面权限。",
+  "version": "1.0.0",
+  "kind": "plugin",
+  "appRange": ">=1.9.2 <2.0.0",
+  "apiRange": "^1.0.0",
+  "platform": "win32",
+  "arch": "x64",
+  "entry": "entry.mjs",
+  "activationEvents": [],
+  "capabilities": [],
+  "dependencies": {},
+  "author": "填写作者",
+  "license": "SEE LICENSE.md"
+}

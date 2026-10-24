@@ -1,0 +1,10 @@
+node_modules/
+.artifacts/
+.runtime-cache/
+*.zip
+**/kimi.exe
+.secrets/
+*.key
+*.pem
+id_ed25519
+id_rsa

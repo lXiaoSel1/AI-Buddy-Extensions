@@ -1,0 +1,23 @@
+[
+  {
+    "file": "rust-stdlib/LICENSE-APACHE",
+    "source": "https://raw.githubusercontent.com/rust-lang/rust/59807616e1fa2540724bfbac14d7976d7e4a3860/LICENSE-APACHE",
+    "bytes": 9723,
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+    "kind": "upstream-original-notice"
+  },
+  {
+    "file": "rust-stdlib/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/rust-lang/rust/59807616e1fa2540724bfbac14d7976d7e4a3860/LICENSE-MIT",
+    "bytes": 1068,
+    "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+    "kind": "upstream-original-notice"
+  },
+  {
+    "file": "rust-stdlib/COPYRIGHT",
+    "source": "https://raw.githubusercontent.com/rust-lang/rust/59807616e1fa2540724bfbac14d7976d7e4a3860/COPYRIGHT",
+    "bytes": 1571,
+    "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+    "kind": "upstream-original-notice"
+  }
+]
