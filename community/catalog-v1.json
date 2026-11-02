@@ -1,0 +1,155 @@
+{
+  "payload": {
+    "authors": [
+      {
+        "githubLogin": "lXiaoSel1",
+        "id": "author.lxiaosel1",
+        "name": "lXiaoSel1",
+        "url": "https://github.com/lXiaoSel1"
+      }
+    ],
+    "generatedAt": "2026-11-02T02:58:31.841Z",
+    "id": "ai-buddy.public-community",
+    "schemaVersion": 1,
+    "source": {
+      "descriptorId": "ai-buddy.extensions",
+      "keyFingerprint": "SHA256:ovVyMUaJlXZUkPRLjf4QBOlZUQ6Dm4Op83kvQAFvT7g"
+    },
+    "type": "ai-buddy-community-catalog",
+    "works": [
+      {
+        "authorId": "author.lxiaosel1",
+        "backend": "dsh",
+        "category": "function",
+        "description": "连接B站账号后，按确认的完整计划阅读原视频采样画面和平台字幕，保存角色感想及可核对的进度；发表评论另行授权。",
+        "id": "ai-buddy.bilibili-companion",
+        "locales": {
+          "en": {
+            "description": "Independently built source and pinned package for AI Buddy2.0.2. Account connection and activity authorization are separate; installation alone starts no model or platform action.",
+            "name": "Bilibili Companion"
+          }
+        },
+        "name": "B站陪伴",
+        "packageName": "@ai-buddy/bilibili-companion",
+        "readme": "# AI Buddy Bilibili / B站陪伴\r\n\r\n`@ai-buddy/bilibili-companion` **2.0.11** · AI Buddy **>= 2.0.2** · source-available: Apache 2.0 + Commons Clause.\r\n\r\n让角色按你确认的计划读取 B站视频帧与字幕，保存观看笔记，并在另行授权后发表评论。此补丁把已接受的 2.0.10 功能代码整理为独立源码和发布仓库；桥接版本、合同、权限和数据格式保持原值。\r\n\r\n## 安装与账号\r\n\r\n在 AI 酱的扩展目录选择「B站陪伴」，核对版本并安装、启用。AI 酱不另建服务账号，不代注册。**必须连接 B站账号才能观看**：由宿主打开 B站官方登录窗口扫码，视频、字幕、额度与历史绑定到所选账号。安装、升级或仅扫码都不会自动开始观看、发表评论或调用模型；公开评论另行授权。\r\n\r\n插件不打包 Cookie、Token、登录资料、媒体或开发者 Node。凭据由宿主保管，不进入模型提示、页面或日志。DSH 及媒体组件由宿主单独准备；FFmpeg-only 媒体工具没有 ASR 模型，没有取得字幕时会标注语言/对白未知，不会冒称听见音频。B站非官方接口可能变化，不承诺官方稳定性。\r\n\r\n## 当前阅读行为\r\n\r\n- 新任务先预览原视频帧图、P 范围、所选模型、帧/图/窗口/字幕数量与预计调用。默认每 **0.5 秒**采样、每 **6 秒**阅读窗、每图最多 **12 帧**；可修改参数，默认当前 P，也可选择其他 P 或全部 P。\r\n- 明确确认后冻结整份计划并顺序执行。每个计划图像及已取得字幕的每个字符都需要对应的成功宿主回执；容量不足时缩批或补文本页，不丢图、不截尾，不沿用旧协议的固定 16 次截停。原字幕、cue ID、时间、字符偏移、拼图与 checkpoint 保留。\r\n- 原视频经有界 Range/后台解码处理；拿不到原视频就暂停，不拿平台预览图冒充固定采样。完整覆盖回执证明材料已提交并有结果，**不保证模型完全理解、事实全对或看懂字幕外全部内容**。\r\n- 暂停、停止、取消、账号/角色/人生变化使旧执行失效。每次继续申请新租约，阅读 ID 和冻结批次身份保持；只对有证据的未提交错误有限重试，未知提交不重放。失败/暂停/待核对、成功结果和实际模型请求 ID 按事实显示。\r\n- 无完整模型能力/metadata 时明确拒绝或暂停，不暗中更换模型。第三方连接的图像数、上下文和 provider metadata 可能不完整；未知 provider 不猜测费用。预约仍受原时间窗、睡眠、权限与账号共享额度限制，手动继续不会被所谓便宜时段强制等待。\r\n\r\n## 默认、权限与数据\r\n\r\n自动观看默认关闭，评论默认关闭、未同意，自动画面阅读默认未批准；默认每天最多观看 5 次、评论 3 次、并发 1。评论必须有单独账号授权和有效活动许可，发送前重验内容与归属；只有有效平台评论 ID 才记为已发送，unknown 保留且不盲发。私有观看笔记、私聊或关系材料不能混入公开评论。\r\n\r\n角色兴趣、观看、额度和记录按宿主的账号/角色/人生范围隔离。卸载默认保留私有 SQLite 历史与宿主已记录经历；退出/停用关闭租约、计时器和连接。schema 为 1，minimumWriter 为 `0.1.0-dev.2`；旧 writer 不得写入新数据。恢复数据库不会撤销评论、经历、钱包或真实外部动作。详见 `DEFAULTS.json`、`SETTINGS.schema.json`、`DATA-SCHEMA.json`。\r\n\r\n## 证据边界与开发\r\n\r\n已接受的导出前基线：core 2829 项（2825 pass / 4 skip），social 480 项（476 pass / 4 skip）；包括真实 Electron 中的 3 个合成阅读场景，以及正式安装后的两个插件实际加载。上述是历史整体验收范围，**不是本独立仓库的新测试计数**。真实账号视频→真实模型完整阅读/评论、真实 QQ 入站→模型→出站等仍未因此验收；不通过重放历史未知请求补做。\r\n\r\n开发需固定 Node **24.21.0**、npm **11.19.0**、esbuild **0.28.2**。在独立仓库的新 checkout 执行 `npm ci`、`npm test`、`npm run build`、`npm run verify:artifacts`、`npm run repro`；不需要宿主或兄弟插件源码。`TEST-SCOPE.json` 记录私有宿主/兄弟测试排除和合成字幕 fixture，`PUBLIC-SOURCE.json` 记录导出清单；打包不安装依赖。详细说明见仓库 `docs/DEVELOPMENT.md` 与 `docs/VALIDATION.md`。已经冻结或发布的包不可改字节，同版本不替换资产。\r\n\r\n## English\r\n\r\nAI Buddy Bilibili 2.0.11 reads source video frames and acquired timed subtitles through a frozen, explicitly confirmed plan. It requires AI Buddy >= 2.0.2, a connected Bilibili account and a suitable user-selected model. AI Buddy adds no service signup; users scan the official platform login themselves. Installing, updating or scanning alone never starts watching, comments or model requests. Commenting needs separate consent. Credentials stay host-managed.\r\n\r\nNew plans default to 0.5-second source sampling, 6-second windows and at most 12 frames per sheet, with explicit part selection. Every required image and acquired subtitle character needs a successful host receipt. Capacity handling splits batches/pages; unknown submissions are not replayed. Failed, paused and review-needed states preserve original sources and checkpoints. An FFmpeg-only kit supplies no ASR: missing dialogue remains unknown. Receipt coverage does not establish perfect semantic understanding or official API stability. Model image/context/provider metadata and real external behavior remain bounded by the configured provider and host.\r\n\r\nAutonomous watching and comments are off by default; limits start at 5 watches and 3 comments per day with one active task. Uninstall retains history by default. The accepted integrated baseline had core 2825 pass / 4 skip and social 476 pass / 4 skip, three synthetic scenes in real Electron, and a formal install with both plugins loaded. These are not new exported-suite results or accepted live-platform/model roundtrips. This patch retains 2.0.10 functional behavior and changes distribution, documentation and version identifiers.\r\n\r\nThe project is source-available under Apache 2.0 **with Commons Clause**, subject to the unchanged `LICENSE.md`; see `THIRD-PARTY-NOTICES.md`. It bundles no third-party artwork, video content, accounts or runtime components and does not claim all host artwork/reference rights are cleared. [Host](https://github.com/lXiaoSel1/AI-Buddy) · [Extension directory](https://github.com/lXiaoSel1/AI-Buddy-Extensions) · [Plugin source and releases](https://github.com/lXiaoSel1/AI-Buddy-Bilibili).\r\n",
+        "releases": [
+          {
+            "notes": "独立源码和固定版本安装包；需AI酱2.0.2。安装后单独连接账号并授权范围，不自动开始社交活动。",
+            "package": {
+              "backend": "dsh",
+              "capabilities": [
+                "social.context.read",
+                "activity.lease",
+                "activity.check",
+                "activity.finish",
+                "models.request",
+                "experience.append",
+                "proactive.offer",
+                "connections.request",
+                "ui.bubble",
+                "ui.registerPage",
+                "lifecycle.register"
+              ],
+              "compatibility": {
+                "app": "^2.0.2",
+                "bridge": "^1.3.0",
+                "dsh": "0.2.1-rc.3"
+              },
+              "dataSchemaVersion": 1,
+              "digestType": "tarball-sha256",
+              "exactVersion": "2.0.11",
+              "packageName": "@ai-buddy/bilibili-companion",
+              "sourceDigest": "aead41395474eb592e21e251d5d7a686d8a5a62371bf848038127c1baf2dba2a",
+              "spec": {
+                "kind": "tarball",
+                "value": "https://github.com/lXiaoSel1/AI-Buddy-Bilibili/releases/download/v2.0.11/ai-buddy-bilibili-companion-2.0.11.tgz"
+              }
+            },
+            "publishedAt": "2026-11-02T02:58:31.841Z",
+            "version": "2.0.11"
+          }
+        ],
+        "repositoryUrl": "https://github.com/lXiaoSel1/AI-Buddy-Bilibili",
+        "reviewsRepository": "lXiaoSel1/AI-Buddy-Bilibili",
+        "status": "published",
+        "tags": [
+          "official",
+          "social"
+        ]
+      },
+      {
+        "authorId": "author.lxiaosel1",
+        "backend": "dsh",
+        "category": "function",
+        "description": "按需准备固定官方NapCat组件并扫码连接，选择接管角色和联系人／群范围；默认不主动发言，主人工作权限独立验证。",
+        "id": "ai-buddy.qq-connect",
+        "locales": {
+          "en": {
+            "description": "Independently built source and pinned package for AI Buddy2.0.2. Account connection and activity authorization are separate; installation alone starts no model or platform action.",
+            "name": "QQ Connect"
+          }
+        },
+        "name": "QQ连接",
+        "packageName": "@ai-buddy/qq-connect",
+        "readme": "# AI Buddy QQ / QQ连接\r\n\r\n`@ai-buddy/qq-connect` **2.0.6** · AI Buddy **>= 2.0.2** · source-available: Apache 2.0 + Commons Clause.\r\n\r\n让指定角色通过宿主受管理连接回应你允许的 QQ 会话，保留角色口吻、独立回复风格与实际发送回执。此补丁把已接受的 2.0.5 功能代码整理为独立源码与发布仓库；桥接、协议 hash、权限与数据格式不变。\r\n\r\n## 安装、连接与授权\r\n\r\n在 AI 酱的扩展目录选择「QQ连接」，核对版本并安装、启用。AI 酱不另建服务账号、不代注册。用户明确点击连接后，宿主按需准备固定版本的 **NapCat 官方上游原组件**并扫码登录；本仓库不镜像、修改或捆绑 NapCat/QQ 客户端。已有手动 OneBot 配置仍可由高级连接使用。\r\n\r\n安装、更新或仅扫码不会自动开始聊天、模型请求或工作任务。默认关闭；选择接管角色、账号与允许名单后才启用。QQ 接管角色独立于 APP 当前前台角色，模型优先使用接管角色的专属绑定，否则按宿主既有默认规则处理；不暗中换模型。Cookie、Token、登录态由宿主管理，不进入模型、页面、日志或插件包。\r\n\r\n## 回复与记录\r\n\r\n- 联系人、群分别允许。群默认只响应结构化 @ 或宿主验证的“回复本账号”；自然参与和主动问候需要各自授权。群管理员、昵称、普通文本、转发/引用、OCR、网页或模型内容不能授权主人工作。\r\n- QQ 默认与每个会话可选「继承 / 简短 / 自然 / 详细」，优先级为会话覆盖 → QQ 默认 → 通用风格，不强制截断或设置新 token 上限。取消、换账号使旧草稿与迟到响应失效。\r\n- 发送者、@目标和引用上下文使用宿主核实身份，稳定 QQ ID 用于归属，昵称仅用于称呼。模型能识别何种图片/链接/表情/卡片取决于连接和模型实际能力；无能力或证据不足时明确未知，不冒称识别。语音/音频没有自动 ASR 保证。\r\n- 每次显式连接/重连创建新 epoch，不补取 QQ 历史或离线缺口。平台消息持久去重；断连/换角色取消旧队列。发送前重验许可与代次，同一实际回复只发送一次，不分句广播。\r\n- 完整结构化模型来源保存在本地独立表，APP 可展开查看，QQ 最多追加 3 个真实来源链接；原始收到的消息保持。实际平台发送成功、对方已读、经历已记住是不同事实。超时/断连发送保持 unknown，不盲目补发；成功发信后的经历补记只恢复记忆，不重发 QQ，不再调用模型。\r\n- 消息、时间线、outbox、来源和经历保留原账号/会话/角色/人生。停用和正常退出关闭连接与监听；卸载默认保留 SQLite 历史和宿主经历。schema 1，minimumWriter `0.1.0-dev.2`；旧 writer 必须拒绝，数据库恢复不会撤回真实消息或回滚经历/钱包。\r\n\r\n## 主人工作与普通聊天\r\n\r\n主人工作需宿主核实的主人私聊或 APP 权限；群内任何身份都不够。QQ 只转交 `owner.work.propose/read/approve/cancel`，不拥有 `work.host`，不内置 Codex/Claude/DSH 工作执行器。相同任务/计划版本的批准与取消持久去重，pending/submitted/unknown 不重放。\r\n\r\nWork 插件不在本轮公开安装集合中。未装、停用或不具工作权限时显示该能力不可用，普通允许会话的 QQ 聊天仍独立可用；扫码、接管角色和允许名单均不等于主人工作授权。\r\n\r\n## 验证与开发\r\n\r\n已接受的导出前基线为 core 2829 项（2825 pass / 4 skip）、social 480 项（476 pass / 4 skip），真实 Electron 中的 3 个合成阅读场景，以及正式安装后两个插件实际加载。不是本仓库的新测试计数，也不等于真实 QQ 登录、入站→模型→出站、真实媒体语义或对方已读验收。未用真实账号、付费模型或历史入站重放来补做本次源码导出。\r\n\r\n独立开发固定 Node **24.21.0**、npm **11.19.0**、esbuild **0.28.2**。在新 checkout 执行 `npm ci`、`npm test`、`npm run build`、`npm run verify:artifacts`、`npm run repro`；不用私有宿主或兄弟插件源码。`TEST-SCOPE.json` 说明哪些测试需要私有宿主/布局工具而未导出，保留的服务、客户端、OneBot 和共享测试使用隔离 fixture；源码与打包哈希由 `PUBLIC-SOURCE.json`、`SOURCE-INPUTS.json` 绑定。详见仓库 `docs/DEVELOPMENT.md`、`docs/VALIDATION.md`。已冻结或发布的包同版本不替换字节。\r\n\r\n## English\r\n\r\nAI Buddy QQ 2.0.6 connects an explicitly selected character to allowlisted QQ conversations through the host. It requires AI Buddy >= 2.0.2. AI Buddy creates no extra service account or platform signup. Only explicit Connect prepares the pinned, unmodified official NapCat component and starts the user's scan-login flow; this repository does not mirror or bundle it. Installation, updates and scanning alone grant no chat, model or owner-work permission. The plugin starts disabled and contains no credentials or QQ runtime.\r\n\r\nConversation reply style overrides the QQ default, which otherwise inherits the general style. Verified sender, mention and reply context preserves identity. Media interpretation depends on actual backend/model capabilities and metadata; unsupported audio or visual content is not presented as understood. New connection epochs consume only new events, not platform history. Durable deduplication and send receipts distinguish actual delivery, unknown sends, read status and memory completion. Memory-only recovery never resends a completed/unknown message.\r\n\r\nOwner work needs separately verified owner scope and a compatible installed Work plugin; Work is excluded from this public installation set and its absence does not block ordinary QQ chat. Group roles, quoted content and model output cannot authorize work. Uninstall retains history by default. The accepted integration baseline had core 2825 pass / 4 skip, social 476 pass / 4 skip, real Electron synthetic-scene checks and both plugins loaded after a formal install. It did not accept a real QQ inbound -> model -> outbound roundtrip. This patch keeps the 2.0.5 functional baseline.\r\n\r\nSource is available under Apache 2.0 **with Commons Clause**, subject to unchanged `LICENSE.md`. Existing third-party notices and host artwork/reference-rights qualifications remain; this repository does not claim all such rights are cleared. [Host](https://github.com/lXiaoSel1/AI-Buddy) · [Extension directory](https://github.com/lXiaoSel1/AI-Buddy-Extensions) · [Plugin source and releases](https://github.com/lXiaoSel1/AI-Buddy-QQ).\r\n",
+        "releases": [
+          {
+            "notes": "独立源码和固定版本安装包；需AI酱2.0.2。安装后单独连接账号并授权范围，不自动开始社交活动。",
+            "package": {
+              "backend": "dsh",
+              "capabilities": [
+                "social.context.read",
+                "activity.lease",
+                "activity.check",
+                "activity.finish",
+                "models.request",
+                "experience.append",
+                "connections.open",
+                "connections.events",
+                "connections.request",
+                "connections.close",
+                "ui.registerPage",
+                "lifecycle.register",
+                "proactive.offer",
+                "proactive.claim",
+                "search.native",
+                "owner.work.propose",
+                "owner.work.read",
+                "owner.work.approve",
+                "owner.work.cancel"
+              ],
+              "compatibility": {
+                "app": "^2.0.2",
+                "bridge": "^1.3.0",
+                "dsh": "0.2.1-rc.3"
+              },
+              "dataSchemaVersion": 1,
+              "digestType": "tarball-sha256",
+              "exactVersion": "2.0.6",
+              "packageName": "@ai-buddy/qq-connect",
+              "sourceDigest": "03b01fb809b8153bdc62a9c51a6316d3b48ab848e49374d8376c56e1679c75b5",
+              "spec": {
+                "kind": "tarball",
+                "value": "https://github.com/lXiaoSel1/AI-Buddy-QQ/releases/download/v2.0.6/ai-buddy-qq-connect-2.0.6.tgz"
+              }
+            },
+            "publishedAt": "2026-11-02T02:58:31.841Z",
+            "version": "2.0.6"
+          }
+        ],
+        "repositoryUrl": "https://github.com/lXiaoSel1/AI-Buddy-QQ",
+        "reviewsRepository": "lXiaoSel1/AI-Buddy-QQ",
+        "status": "published",
+        "tags": [
+          "official",
+          "social"
+        ]
+      }
+    ]
+  },
+  "signature": {
+    "algorithm": "sshsig",
+    "keyId": "ai-buddy-release",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgUuYWgCA5p99MsDA0n5TW/QwriJ\npMdsxn4GNqJ1WVrTkAAAAaYWktYnVkZHktY29tbXVuaXR5LWNhdGFsb2cAAAAAAAAABnNo\nYTUxMgAAAFMAAAALc3NoLWVkMjU1MTkAAABA433Rnxz0gvPbUHHmgFjjQqpa3A+shXr0Kv\nObXJNi+y0gitPYlUHqMtbMIO76etrDOiTpZNUswCMtabtvB3PhAw==\n-----END SSH SIGNATURE-----\n"
+  }
+}
