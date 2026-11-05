@@ -8,7 +8,7 @@
         "url": "https://github.com/lXiaoSel1"
       }
     ],
-    "generatedAt": "2026-11-02T02:58:31.841Z",
+    "generatedAt": "2026-11-05T00:12:08.951Z",
     "id": "ai-buddy.public-community",
     "schemaVersion": 1,
     "source": {
@@ -144,12 +144,69 @@
           "official",
           "social"
         ]
+      },
+      {
+        "authorId": "author.lxiaosel1",
+        "backend": "dsh",
+        "category": "function",
+        "description": "和 AI 酱一起玩斗地主和德州扑克，支持暂停、续玩及回放。需要 AI 酱 2.0.4 或更新的兼容版本。",
+        "id": "ai-buddy.card-games",
+        "locales": {
+          "en": {
+            "description": "Play Dou Dizhu and Texas Hold'em with AI Buddy. Pause, resume, or review saved games. Requires AI Buddy 2.0.4 or a later compatible version.",
+            "name": "Card Games"
+          }
+        },
+        "name": "一起玩牌",
+        "packageName": "@ai-buddy/card-games",
+        "releases": [
+          {
+            "locales": {
+              "en": {
+                "notes": "First release. The four permissions cover tables, model turns, table chat, and replays. Installation starts no model request."
+              }
+            },
+            "notes": "首个正式版本。四项权限用于牌桌、模型出牌、桌聊及回放。安装不会发起模型请求。",
+            "package": {
+              "backend": "dsh",
+              "capabilities": [
+                "games.table",
+                "games.models",
+                "games.chat",
+                "games.replay"
+              ],
+              "compatibility": {
+                "app": "^2.0.4",
+                "bridge": "^1.3.0",
+                "dsh": "0.2.1-rc.3"
+              },
+              "dataSchemaVersion": 1,
+              "digestType": "tarball-sha256",
+              "exactVersion": "1.0.0",
+              "packageName": "@ai-buddy/card-games",
+              "sourceDigest": "8eaa34d7b01ba681e0ceec365f88a740db500c95d656a92d1f4ad5efe87b5a06",
+              "spec": {
+                "kind": "tarball",
+                "value": "https://github.com/lXiaoSel1/AI-Buddy-Card-Games/releases/download/v1.0.0/ai-buddy-card-games-1.0.0.tgz"
+              }
+            },
+            "publishedAt": "2026-11-05T00:12:08.951Z",
+            "version": "1.0.0"
+          }
+        ],
+        "repositoryUrl": "https://github.com/lXiaoSel1/AI-Buddy-Card-Games",
+        "reviewsRepository": "lXiaoSel1/AI-Buddy-Card-Games",
+        "status": "published",
+        "tags": [
+          "official",
+          "games"
+        ]
       }
     ]
   },
   "signature": {
     "algorithm": "sshsig",
     "keyId": "ai-buddy-release",
-    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgUuYWgCA5p99MsDA0n5TW/QwriJ\npMdsxn4GNqJ1WVrTkAAAAaYWktYnVkZHktY29tbXVuaXR5LWNhdGFsb2cAAAAAAAAABnNo\nYTUxMgAAAFMAAAALc3NoLWVkMjU1MTkAAABA433Rnxz0gvPbUHHmgFjjQqpa3A+shXr0Kv\nObXJNi+y0gitPYlUHqMtbMIO76etrDOiTpZNUswCMtabtvB3PhAw==\n-----END SSH SIGNATURE-----\n"
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgUuYWgCA5p99MsDA0n5TW/QwriJ\npMdsxn4GNqJ1WVrTkAAAAaYWktYnVkZHktY29tbXVuaXR5LWNhdGFsb2cAAAAAAAAABnNo\nYTUxMgAAAFMAAAALc3NoLWVkMjU1MTkAAABAmwamrcmWfGZV1TbAbysiijtoneGVRqVFJt\n3OwBcyon9hcGceyuP/5p7G3PuxjV8oQU2BkVnz+zRtH3dKJ1CZBA==\n-----END SSH SIGNATURE-----\n"
   }
 }
