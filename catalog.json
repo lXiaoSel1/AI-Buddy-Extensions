@@ -1,6 +1,6 @@
 {
   "payload": {
-    "generatedAt": "2026-10-24T03:56:37.320Z",
+    "generatedAt": "2026-11-09T00:29:05.950Z",
     "id": "ai-buddy-official",
     "packages": [
       {
@@ -4246,6 +4246,222 @@
           "version": "1.0.0"
         },
         "publishedAt": "2026-10-24T03:55:58.212Z"
+      },
+      {
+        "archive": {
+          "bytes": 248428,
+          "sha256": "0f059eb81b02356fa97367381b2517f4fb9ae813f06a0f49a7864b762c1f17ca",
+          "url": "https://github.com/lXiaoSel1/AI-Buddy-Voice/releases/download/v1.0.1/ai-buddy.voice-shared-runtime-1.0.1.zip"
+        },
+        "manifest": {
+          "activationEvents": [],
+          "apiRange": "^1.0.0",
+          "appRange": "^2.0.9",
+          "arch": "x64",
+          "author": "lXiaoSel1",
+          "capabilities": [],
+          "category": "voice",
+          "compatibleDataVersions": [
+            1
+          ],
+          "dataSchemaVersion": 1,
+          "dependencies": {},
+          "description": "两种语音引擎共用的识别、云配音 worker 与运行协议；自动管理的内部依赖。",
+          "entry": "asr_worker.py",
+          "files": [
+            {
+              "bytes": 4490,
+              "path": "asr.py",
+              "sha256": "19ddc7b7ffa1e3d58614caecbe26df94efe93ae9793166d972acbb398b7ba2e9"
+            },
+            {
+              "bytes": 1698,
+              "path": "asr_worker.py",
+              "sha256": "7401a00522cff5ade2f00853d1edd2b20c10b1e6c47f75810c6809556b1926f8"
+            },
+            {
+              "bytes": 2048,
+              "path": "ASSET-NOTICES.md",
+              "sha256": "ea97bc0d9ffea81f19bfb2bdf6d55cdd623f395317e36009d321a8e5654a04c3"
+            },
+            {
+              "bytes": 675616,
+              "path": "assets.json",
+              "sha256": "36402e36a0e3249db75d6d93995bfd696f1759b0c1c8620300ab8a3df92b5eee"
+            },
+            {
+              "bytes": 12163,
+              "path": "cloud_speech.py",
+              "sha256": "617c795e3e7b79c14445a4ea6bf36fb1d6cfe29876c27ca435ebae2c6f5da729"
+            },
+            {
+              "bytes": 251444,
+              "path": "downloads.json",
+              "sha256": "8d6e870ecb95054e55a1e7454e9b129d024ebd77dd2980aa3f1edceb5ed6838a"
+            },
+            {
+              "bytes": 13663,
+              "path": "LICENSE.md",
+              "sha256": "743e12419085102e444fd36c1df870d9fcd64badcc03cc551ae0fae81f517b3a"
+            },
+            {
+              "bytes": 2921,
+              "path": "worker_protocol.py",
+              "sha256": "204769ac9411983c6522402a6f0b8b5fce74519a6675ad07bbf152925afc2455"
+            }
+          ],
+          "id": "ai-buddy.voice-shared-runtime",
+          "kind": "runtime",
+          "license": "Apache-2.0 + Commons Clause",
+          "name": "AI Buddy 共享语音运行依赖",
+          "platform": "win32",
+          "schemaVersion": 1,
+          "version": "1.0.1"
+        },
+        "publishedAt": "2026-11-09T00:29:05.950Z"
+      },
+      {
+        "archive": {
+          "bytes": 1654217,
+          "sha256": "c398e266606714a8e7d53c0595ec25f3c9a6469a5254d74e279ba6da96b58d93",
+          "url": "https://github.com/lXiaoSel1/AI-Buddy-Voice/releases/download/v1.0.1/ai-buddy.voice-breeze-1.0.1.zip"
+        },
+        "manifest": {
+          "activationEvents": [
+            "onCommand:voice.breeze"
+          ],
+          "apiRange": "^1.0.0",
+          "appRange": "^2.0.9",
+          "arch": "x64",
+          "author": "lXiaoSel1",
+          "capabilities": [
+            "commands.register"
+          ],
+          "category": "voice",
+          "compatibleDataVersions": [
+            1
+          ],
+          "dataSchemaVersion": 1,
+          "dependencies": {
+            "ai-buddy.voice-shared-runtime": "1.0.1"
+          },
+          "description": "选择本地 Breeze 或 MiniMax 云配音。共用本地流式识别、录音、轮流 Live 和播放。",
+          "entry": "entry.mjs",
+          "files": [
+            {
+              "bytes": 2048,
+              "path": "ASSET-NOTICES.md",
+              "sha256": "ea97bc0d9ffea81f19bfb2bdf6d55cdd623f395317e36009d321a8e5654a04c3"
+            },
+            {
+              "bytes": 5152097,
+              "path": "assets.json",
+              "sha256": "2ac28cbb5632d3fcd250536fa30710ff2539d4ffda0235fa35a74aad3a212d37"
+            },
+            {
+              "bytes": 3981,
+              "path": "breeze_worker.py",
+              "sha256": "9bae23e9f853ffb153f47d12e7a99038e2a709f20a1541dd512b17a4a958ddbd"
+            },
+            {
+              "bytes": 809,
+              "path": "cadence.py",
+              "sha256": "67fb5c4740e231252245d72e01e34e4bd9cda189014c7661cd6baa80b674978f"
+            },
+            {
+              "bytes": 2159095,
+              "path": "downloads.json",
+              "sha256": "f63179fa70ab90723df79fa58bbc3557b3e1da5119e703a8d78f3d2a2c8ee467"
+            },
+            {
+              "bytes": 279,
+              "path": "entry.mjs",
+              "sha256": "d28fabfa5ebbd013e0b1fd3a05e1cd7c99ebb26a5d29455a6236100913de476a"
+            },
+            {
+              "bytes": 13663,
+              "path": "LICENSE.md",
+              "sha256": "743e12419085102e444fd36c1df870d9fcd64badcc03cc551ae0fae81f517b3a"
+            }
+          ],
+          "id": "ai-buddy.voice-breeze",
+          "kind": "plugin",
+          "license": "Apache-2.0 + Commons Clause",
+          "name": "Breeze 语音",
+          "platform": "win32",
+          "schemaVersion": 1,
+          "version": "1.0.1"
+        },
+        "publishedAt": "2026-11-09T00:29:05.950Z"
+      },
+      {
+        "archive": {
+          "bytes": 1499422,
+          "sha256": "d8875bd5e2e69be150a2dc03303c7023db42ee429e8c8d1595c7a8c96814d85a",
+          "url": "https://github.com/lXiaoSel1/AI-Buddy-Voice/releases/download/v1.0.1/ai-buddy.voice-gpt-sovits-1.0.1.zip"
+        },
+        "manifest": {
+          "activationEvents": [
+            "onCommand:voice.gpt-sovits"
+          ],
+          "apiRange": "^1.0.0",
+          "appRange": "^2.0.9",
+          "arch": "x64",
+          "author": "lXiaoSel1",
+          "capabilities": [
+            "commands.register"
+          ],
+          "category": "voice",
+          "compatibleDataVersions": [
+            1
+          ],
+          "dataSchemaVersion": 1,
+          "dependencies": {
+            "ai-buddy.voice-shared-runtime": "1.0.1"
+          },
+          "description": "选择本地 GPT-SoVITS V5 Turbo 或 MiniMax 云配音。共用本地流式识别、录音、轮流 Live 和播放。",
+          "entry": "entry.mjs",
+          "files": [
+            {
+              "bytes": 2048,
+              "path": "ASSET-NOTICES.md",
+              "sha256": "ea97bc0d9ffea81f19bfb2bdf6d55cdd623f395317e36009d321a8e5654a04c3"
+            },
+            {
+              "bytes": 4662018,
+              "path": "assets.json",
+              "sha256": "0174e12240469f16e0bfb0630f5a6337c2c63f58ba4717443968b9a32f44657d"
+            },
+            {
+              "bytes": 1922171,
+              "path": "downloads.json",
+              "sha256": "dbf98ab5b0619a275dd31354e0ca945f79d869b01de331f838ff23f61d1cc59a"
+            },
+            {
+              "bytes": 288,
+              "path": "entry.mjs",
+              "sha256": "b8d6156541d74a7d030e9a49ba23881cf9025492dc66427773ec412acf1bdb66"
+            },
+            {
+              "bytes": 4499,
+              "path": "gpt_worker.py",
+              "sha256": "35d3c22bacea917904b7c663753c2544bacfcafc49d1aa6cd74b4446210b1bda"
+            },
+            {
+              "bytes": 13663,
+              "path": "LICENSE.md",
+              "sha256": "743e12419085102e444fd36c1df870d9fcd64badcc03cc551ae0fae81f517b3a"
+            }
+          ],
+          "id": "ai-buddy.voice-gpt-sovits",
+          "kind": "plugin",
+          "license": "Apache-2.0 + Commons Clause",
+          "name": "GPT-SoVITS 语音",
+          "platform": "win32",
+          "schemaVersion": 1,
+          "version": "1.0.1"
+        },
+        "publishedAt": "2026-11-09T00:29:05.950Z"
       }
     ],
     "schemaVersion": 1
@@ -4253,6 +4469,6 @@
   "signature": {
     "algorithm": "sshsig",
     "keyId": "ai-buddy-release",
-    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgUuYWgCA5p99MsDA0n5TW/QwriJ\npMdsxn4GNqJ1WVrTkAAAAXYWktYnVkZHktcGx1Z2luLWNhdGFsb2cAAAAAAAAABnNoYTUx\nMgAAAFMAAAALc3NoLWVkMjU1MTkAAABA2zAIDHis4LoB5Arf69InLuDZ6cYuHbP0hVZN+q\n1m01xtdBLF8fpUgPC+hRutz1ggNbxqSU43sCkLHazhNyjnDg==\n-----END SSH SIGNATURE-----\n"
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgUuYWgCA5p99MsDA0n5TW/QwriJ\npMdsxn4GNqJ1WVrTkAAAAXYWktYnVkZHktcGx1Z2luLWNhdGFsb2cAAAAAAAAABnNoYTUx\nMgAAAFMAAAALc3NoLWVkMjU1MTkAAABAQApjd6Zeg9rictM2t5yc89bQ/HXXLwTLujIk3t\nHHqq5FABfiYjppFK9bu1c6uNWTgY6fevkwNGcuYV2aQ6XiDQ==\n-----END SSH SIGNATURE-----\n"
   }
 }
